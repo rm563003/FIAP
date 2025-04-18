@@ -1,7 +1,5 @@
 
 # FatimaCandal_RM563003_fase2_cap7
-# LeviMarques_RM565557_fase2_cap7
-
 
 #instalacao de pacote 
 #install.packages("readxl") 
