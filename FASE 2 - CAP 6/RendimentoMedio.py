@@ -1,5 +1,4 @@
 # FatimaCandal_RM563003_fase2_cap6
-# LeviMarques_RM565557_fase2_cap6
 
 # Um sistema para gerenciar dados de produção agrícola, como como quantidade colhida,
 # perdas, área plantada, área colhida, produção e rendimento médio.

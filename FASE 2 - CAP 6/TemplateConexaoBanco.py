@@ -1,5 +1,4 @@
 # FatimaCandal_RM563003_fase2_cap6
-# LeviMarques_RM565557_fase2_cap6
 
 # Conexão para recuperar dados agrícolas de um banco de dados Oracle.
 # Segue um template para a conexão com o banco de dados oracle:
