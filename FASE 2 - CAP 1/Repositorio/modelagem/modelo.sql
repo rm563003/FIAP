@@ -1,5 +1,4 @@
 -- Script de Criação do Banco de Dados para Monitoramento Agrícola
--- Gerado em: 2025-04-18
 
 CREATE TABLE Cultura (
     ID_Cultura INT PRIMARY KEY,
