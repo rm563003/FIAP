@@ -4,13 +4,11 @@ FIAP - Faculdade de Informática e Administração Paulista
 ##Nome do projeto:  Cap 6 - Python e além
 ##Nome do grupo: Grupo 9
 
-##Integrantes: * Fátima Vilela Candal – RM563003
+##Integrantes: Fátima Vilela Candal – RM563003
 
 ##Professores:
-##Tutor(a): 
-* Leonardo Ruiz Orabona
-##Coordenador(a):
-* André Godoi Chiovato
+##Tutor(a): Leonardo Ruiz Orabona
+##Coordenador(a): André Godoi Chiovato
 
 ##Descrição
 A atividade acadêmica trata das informações fornecidas sobre agrotechs e a colheita de cana-de-açúcar. Escolhi atuar na área de “Gestão Agrícola” do agronegócio. 
