@@ -7,9 +7,9 @@ FIAP - Faculdade de Informática e Administração Paulista
 ##Integrantes: * Fátima Vilela Candal – RM563003
 
 ##Professores:
-##Tutor(a)
+##Tutor(a): 
 * Leonardo Ruiz Orabona
-##Coordenador(a)
+##Coordenador(a):
 * André Godoi Chiovato
 
 ##Descrição
