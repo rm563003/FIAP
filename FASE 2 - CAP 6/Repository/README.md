@@ -1,36 +1,38 @@
-FIAP - Faculdade de InformÃ¡tica e AdministraÃ§Ã£o Paulista
+FIAP - Faculdade de Informática e Administração Paulista
 
 
-##Nome do projeto:  Cap 6 - Python e alÃ©m
+##Nome do projeto:  Cap 6 - Python e além
 ##Nome do grupo: Grupo 9
 
-##Integrantes: FÃ¡tima Vilela Candal â€“ RM563003
+##Integrantes: * Fátima Vilela Candal – RM563003
 
 ##Professores:
-##Tutor(a): Leonardo Ruiz Orabona
-##Coordenador(a): AndrÃ© Godoi Chiovato
+##Tutor(a)
+* Leonardo Ruiz Orabona
+##Coordenador(a)
+* André Godoi Chiovato
 
-##DescriÃ§Ã£o
-A atividade acadÃªmica trata das informaÃ§Ãµes fornecidas sobre agrotechs e a colheita de cana-de-aÃ§Ãºcar. Escolhi atuar na Ã¡rea de â€œGestÃ£o AgrÃ­colaâ€ do agronegÃ³cio. 
-Efetuei uma conexÃ£o com o arquivo excel â€œtabela6588.xlsxâ€ e apÃ³s, criei grÃ¡ficos para gerenciar dados de produÃ§Ã£o agrÃ­cola da cana-de-aÃ§Ãºcar, como quantidade colhida, perdas, Ã¡rea plantada, Ã¡rea colhida, produÃ§Ã£o e rendimento mÃ©dio.
+##Descrição
+A atividade acadêmica trata das informações fornecidas sobre agrotechs e a colheita de cana-de-açúcar. Escolhi atuar na área de “Gestão Agrícola” do agronegócio. 
+Efetuei uma conexão com o arquivo excel “tabela6588.xlsx” e após, criei gráficos para gerenciar dados de produção agrícola da cana-de-açúcar, como quantidade colhida, perdas, área plantada, área colhida, produção e rendimento médio.
 
 ##Estrutura de pastas
-Os arquivos estÃ£o GITHUB no caminho:
-https://github.com/rm563003/FIAP/tree/main/FASE%202%20-%20CAP%206
+Os arquivos estão GITHUB no caminho:
+https://github.com/rm563003/FIAP/tree/main/FASE%202%20-%20CAP%206/Repository
 
-*FIAP/FASE 2 â€“ CAP 6/Repository/
+*FIAP/FASE 2 – CAP 6/Repository/
 
-* assets: Imagens geradas na execuÃ§Ã£o do cÃ³digo fonte.
+* assets: Imagens geradas na execução do código fonte.
 area_colhida.png
 area_plantada.png
-produÃ§Ã£o.png
-rendimento mÃ©dio.png
+produção.png
+rendimento médio.png
 
 * document: Documentos do projeto. 
-Cap 6 - Python e alÃ©m.docx
-       ** other: Documentos complementares.
+Cap 6 - Python e além.docx
+       ** other: TemplateConexaoBanco.py
 
-* src: CÃ³digo fonte criado e arquivo excel.
+* src: Código fonte criado e arquivo excel.
 AreaColhida.py
 AreaPlantada.py
 ProducaoToneladas.py
@@ -39,10 +41,10 @@ tabela6588.xlsx
 
 * README.md
 
-##Como executar o cÃ³digo
-Criar no drive â€œC:/â€ a pasta â€œFIAPâ€ e copiar o arquivo excel â€œtabela6588.xlsxâ€ para a pasta criada ("C:/FIAP/tabela6588.xlsx") e apÃ³s, executar no â€œPYCHARMâ€ os cÃ³digos que estÃ£o no repositÃ³rio na pasta â€œsrc (/Repository/src)â€.
+##Como executar o código
+Criar no drive “C:/” a pasta “FIAP” e copiar o arquivo excel “tabela6588.xlsx” para a pasta criada ("C:/FIAP/tabela6588.xlsx") e após, executar no “PYCHARM” os códigos que estão no repositório na pasta “src (/Repository/src)”.
 
-Para executar o cÃ³digo instalar e importar as bibliotecas:
+Para executar o código instalar e importar as bibliotecas:
 #install package matplotlib
 #install package pandas
 
@@ -51,12 +53,11 @@ import pandas as pd
 
 
 
-##Arquivo Excel â€œtabela6588â€
-Tabela 6588 - SÃ©rie histÃ³rica da estimativa anual da Ã¡rea plantada, Ã¡rea colhida, produÃ§Ã£o e rendimento mÃ©dio dos produtos das lavouras de cana de aÃ§Ãºcar.
+##Arquivo Excel “tabela6588”
+Tabela 6588 - Série histórica da estimativa anual da área plantada, área colhida, produção e rendimento médio dos produtos das lavouras de cana de açúcar.
 
-Fonte: IBGE â€“ Levantamento SistemÃ¡tico da ProduÃ§Ã£o AgrÃ­cola
-Os dados sÃ£o uma atualizaÃ§Ã£o mensal a estimativa para a safra COMPLETA, anual. NÃ£o Ã© uma estimativa para a produÃ§Ã£o mensal.
+Fonte: IBGE – Levantamento Sistemático da Produção Agrícola
+Os dados são uma atualização mensal a estimativa para a safra COMPLETA, anual. Não é uma estimativa para a produção mensal.
 
-Unidade da FederaÃ§Ã£o â€“ Pernambuco
-Produto das lavouras â€“ 11 Cana-de-aÃ§Ãºcar 
-
+Unidade da Federação – Pernambuco
+Produto das lavouras – 11 Cana-de-açúcar 
