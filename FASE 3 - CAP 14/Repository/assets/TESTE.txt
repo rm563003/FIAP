@@ -1,0 +1,217 @@
+# %% [markdown]
+"""
+### 4.1 Modelo: Random Forest
+"""
+
+# %% [code]
+rf_model = RandomForestClassifier(n_estimators=100, random_state=42)
+rf_model.fit(X_train, y_train)
+y_pred_rf = rf_model.predict(X_test)
+accuracy_rf = accuracy_score(y_test, y_pred_rf)
+print(f"Acurácia Random Forest: {accuracy_rf:.2f}")
+print(classification_report(y_test, y_pred_rf))
+Acurácia Random Forest: 0.99
+              precision    recall  f1-score   support
+
+       apple       1.00      1.00      1.00        23
+      banana       1.00      1.00      1.00        21
+   blackgram       1.00      1.00      1.00        20
+    chickpea       1.00      1.00      1.00        26
+     coconut       1.00      1.00      1.00        27
+      coffee       1.00      1.00      1.00        17
+      cotton       1.00      1.00      1.00        17
+      grapes       1.00      1.00      1.00        14
+        jute       0.92      1.00      0.96        23
+ kidneybeans       1.00      1.00      1.00        20
+      lentil       0.92      1.00      0.96        11
+       maize       1.00      1.00      1.00        21
+       mango       1.00      1.00      1.00        19
+   mothbeans       1.00      0.96      0.98        24
+    mungbean       1.00      1.00      1.00        19
+   muskmelon       1.00      1.00      1.00        17
+      orange       1.00      1.00      1.00        14
+      papaya       1.00      1.00      1.00        23
+  pigeonpeas       1.00      1.00      1.00        23
+ pomegranate       1.00      1.00      1.00        23
+        rice       1.00      0.89      0.94        19
+  watermelon       1.00      1.00      1.00        19
+
+    accuracy                           0.99       440
+   macro avg       0.99      0.99      0.99       440
+weighted avg       0.99      0.99      0.99       440
+
+# %% [markdown]
+"""
+### 4.2 Modelo: Support Vector Machine (SVM)
+"""
+
+# %% [code]
+svm_model = SVC(kernel='linear')
+svm_model.fit(X_train, y_train)
+y_pred_svm = svm_model.predict(X_test)
+accuracy_svm = accuracy_score(y_test, y_pred_svm)
+print(f"Acurácia SVM: {accuracy_svm:.2f}")
+print(classification_report(y_test, y_pred_svm))
+Acurácia SVM: 0.98
+              precision    recall  f1-score   support
+
+       apple       1.00      1.00      1.00        23
+      banana       1.00      1.00      1.00        21
+   blackgram       0.95      1.00      0.98        20
+    chickpea       1.00      1.00      1.00        26
+     coconut       1.00      1.00      1.00        27
+      coffee       0.94      1.00      0.97        17
+      cotton       0.94      1.00      0.97        17
+      grapes       1.00      1.00      1.00        14
+        jute       0.87      0.87      0.87        23
+ kidneybeans       1.00      1.00      1.00        20
+      lentil       1.00      1.00      1.00        11
+       maize       1.00      0.95      0.98        21
+       mango       0.95      1.00      0.97        19
+   mothbeans       1.00      1.00      1.00        24
+    mungbean       1.00      1.00      1.00        19
+   muskmelon       1.00      1.00      1.00        17
+      orange       1.00      1.00      1.00        14
+      papaya       0.96      1.00      0.98        23
+  pigeonpeas       1.00      0.91      0.95        23
+ pomegranate       1.00      1.00      1.00        23
+        rice       0.94      0.84      0.89        19
+  watermelon       1.00      1.00      1.00        19
+
+    accuracy                           0.98       440
+   macro avg       0.98      0.98      0.98       440
+weighted avg       0.98      0.98      0.98       440
+
+# %% [markdown]
+"""
+### 4.3 Modelo: K-Nearest Neighbors (KNN)
+"""
+
+# %% [code]
+knn_model = KNeighborsClassifier(n_neighbors=5)
+knn_model.fit(X_train, y_train)
+y_pred_knn = knn_model.predict(X_test)
+accuracy_knn = accuracy_score(y_test, y_pred_knn)
+print(f"Acurácia KNN: {accuracy_knn:.2f}")
+print(classification_report(y_test, y_pred_knn))
+Acurácia KNN: 0.97
+              precision    recall  f1-score   support
+
+       apple       1.00      1.00      1.00        23
+      banana       1.00      1.00      1.00        21
+   blackgram       0.95      1.00      0.98        20
+    chickpea       1.00      1.00      1.00        26
+     coconut       1.00      1.00      1.00        27
+      coffee       1.00      0.94      0.97        17
+      cotton       0.94      1.00      0.97        17
+      grapes       1.00      1.00      1.00        14
+        jute       0.76      0.96      0.85        23
+ kidneybeans       0.95      1.00      0.98        20
+      lentil       0.85      1.00      0.92        11
+       maize       1.00      0.95      0.98        21
+       mango       1.00      1.00      1.00        19
+   mothbeans       1.00      0.92      0.96        24
+    mungbean       1.00      1.00      1.00        19
+   muskmelon       1.00      1.00      1.00        17
+      orange       1.00      1.00      1.00        14
+      papaya       1.00      1.00      1.00        23
+  pigeonpeas       1.00      0.91      0.95        23
+ pomegranate       1.00      1.00      1.00        23
+        rice       0.93      0.68      0.79        19
+  watermelon       1.00      1.00      1.00        19
+
+    accuracy                           0.97       440
+   macro avg       0.97      0.97      0.97       440
+weighted avg       0.97      0.97      0.97       440
+
+# %% [markdown]
+"""
+### 4.4 Modelo: Regressão Logística
+"""
+
+# %% [code]
+lr_model = LogisticRegression(max_iter=500)
+lr_model.fit(X_train, y_train)
+y_pred_lr = lr_model.predict(X_test)
+accuracy_lr = accuracy_score(y_test, y_pred_lr)
+print(f"Acurácia Regressão Logística: {accuracy_lr:.2f}")
+print(classification_report(y_test, y_pred_lr))
+Acurácia Regressão Logística: 0.94
+              precision    recall  f1-score   support
+
+       apple       1.00      1.00      1.00        23
+      banana       1.00      1.00      1.00        21
+   blackgram       0.75      0.75      0.75        20
+    chickpea       1.00      1.00      1.00        26
+     coconut       1.00      1.00      1.00        27
+      coffee       0.94      1.00      0.97        17
+      cotton       0.80      0.94      0.86        17
+      grapes       1.00      1.00      1.00        14
+        jute       0.87      0.87      0.87        23
+ kidneybeans       1.00      1.00      1.00        20
+      lentil       0.71      0.91      0.80        11
+       maize       0.94      0.81      0.87        21
+       mango       1.00      1.00      1.00        19
+   mothbeans       0.87      0.83      0.85        24
+    mungbean       0.95      1.00      0.97        19
+   muskmelon       1.00      1.00      1.00        17
+      orange       1.00      1.00      1.00        14
+      papaya       0.96      0.96      0.96        23
+  pigeonpeas       1.00      0.87      0.93        23
+ pomegranate       1.00      1.00      1.00        23
+        rice       0.89      0.84      0.86        19
+  watermelon       1.00      1.00      1.00        19
+
+    accuracy                           0.94       440
+   macro avg       0.94      0.94      0.94       440
+weighted avg       0.95      0.94      0.94       440
+
+C:\Users\User\anaconda3\Lib\site-packages\sklearn\linear_model\_logistic.py:469: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+# %% [markdown]
+"""
+### 4.5 Modelo: Redes Neurais (MLP)
+"""
+
+# %% [code]
+mlp_model = MLPClassifier(hidden_layer_sizes=(50,), max_iter=500, random_state=42)
+mlp_model.fit(X_train, y_train)
+y_pred_mlp = mlp_model.predict(X_test)
+accuracy_mlp = accuracy_score(y_test, y_pred_mlp)
+print(f"Acurácia Redes Neurais: {accuracy_mlp:.2f}")
+print(classification_report(y_test, y_pred_mlp))
+Acurácia Redes Neurais: 0.95
+              precision    recall  f1-score   support
+
+       apple       1.00      1.00      1.00        23
+      banana       1.00      1.00      1.00        21
+   blackgram       0.89      0.80      0.84        20
+    chickpea       1.00      1.00      1.00        26
+     coconut       1.00      1.00      1.00        27
+      coffee       0.94      1.00      0.97        17
+      cotton       0.80      0.94      0.86        17
+      grapes       1.00      1.00      1.00        14
+        jute       0.86      0.83      0.84        23
+ kidneybeans       0.95      1.00      0.98        20
+      lentil       0.77      0.91      0.83        11
+       maize       0.94      0.76      0.84        21
+       mango       1.00      1.00      1.00        19
+   mothbeans       0.88      0.96      0.92        24
+    mungbean       1.00      1.00      1.00        19
+   muskmelon       1.00      1.00      1.00        17
+      orange       1.00      1.00      1.00        14
+      papaya       1.00      0.96      0.98        23
+  pigeonpeas       1.00      0.87      0.93        23
+ pomegranate       1.00      1.00      1.00        23
+        rice       0.81      0.89      0.85        19
+  watermelon       1.00      1.00      1.00        19
+
+    accuracy                           0.95       440
+   macro avg       0.95      0.95      0.95       440
+weighted avg       0.95      0.95      0.95       440
