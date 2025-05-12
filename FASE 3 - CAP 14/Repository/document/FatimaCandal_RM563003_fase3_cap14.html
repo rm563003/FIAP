@@ -7488,10 +7488,13 @@ a.anchor-link {
 <span class="sd"># Análise e Modelagem de Produtos Agrícolas</span>
 
 <span class="sd">Este notebook tem como objetivo:</span>
+
 <span class="sd">- Explorar uma base de dados contendo informações de solo e clima;</span>
 <span class="sd">- Realizar uma análise descritiva (incluindo pelo menos cinco gráficos);</span>
 <span class="sd">- Identificar o perfil ideal de condições para diferentes culturas;</span>
-<span class="sd">- Desenvolver e comparar cinco modelos preditivos (Random Forest, SVM, KNN, Regressão Logística e Redes Neurais) que indiquem o melhor produto agrícola a ser cultivado.</span>
+<span class="sd">- Desenvolver e comparar cinco modelos preditivos (Random Forest, SVM, KNN, Regressão Logística e Redes Neurais) </span>
+<span class="sd">que indiquem o melhor produto agrícola a ser cultivado.</span>
+
 <span class="sd">"""</span>
 
 <span class="c1"># %% [code]</span>
@@ -7528,7 +7531,8 @@ a.anchor-link {
 <span class="sd">"""</span>
 <span class="sd">## 1. Carregamento e Pré-processamento dos Dados</span>
 
-<span class="sd">Nesta seção, vamos ler a base de dados, verificar o tipo de cada variável, identificar valores nulos e aplicar eventuais pré-processamentos necessários.</span>
+<span class="sd">Na base de dados, verificar o tipo de cada variável, identificar valores nulos e aplicar eventuais pré-processamentos necessários.</span>
+
 <span class="sd">"""</span>
 
 <span class="c1"># %% [code]</span>
@@ -7627,7 +7631,9 @@ dtype: int64
 <span class="sd">"""</span>
 <span class="sd">## 2. Análise Exploratória de Dados</span>
 
-<span class="sd">Vamos visualizar as distribuições das variáveis e explorar as relações entre elas. Aqui você pode incluir, por exemplo, histogramas, boxplots, gráficos de dispersão e uma matriz de correlação.</span>
+<span class="sd">Visualizar as distribuições das variáveis e explorar as relações entre elas. Incluir, por exemplo, histogramas, boxplots, gráficos </span>
+<span class="sd">de dispersão e uma matriz de correlação.</span>
+
 <span class="sd">"""</span>
 
 <span class="c1"># Carregar a base de dados</span>
@@ -7716,7 +7722,9 @@ dtype: int64
 <span class="sd">"""</span>
 <span class="sd">## 3. Definição do Perfil Ideal e Análise Comparativa</span>
 
-<span class="sd">Nesta seção, você pode agrupar os dados por cultura (label) e calcular medidas como média, mediana e desvio padrão para cada variável. Em seguida, comparar os perfis entre três culturas escolhidas.</span>
+<span class="sd">Agrupar os dados por cultura (label) e calcular medidas como média, mediana e desvio padrão para cada variável. </span>
+<span class="sd">Comparar os perfis entre três culturas escolhidas.</span>
+
 <span class="sd">"""</span>
 
 <span class="c1"># %% [code]</span>
@@ -7815,7 +7823,9 @@ watermelon    50.786219
 <span class="sd">"""</span>
 <span class="sd">## 4. Modelagem Preditiva</span>
 
-<span class="sd">Nossa meta é desenvolver cinco modelos para prever o tipo de cultura. Primeiro, vamos separar as variáveis independentes (X) e a variável alvo (y).</span>
+<span class="sd">Desenvolver cinco modelos para prever o tipo de cultura. </span>
+<span class="sd">Separar as variáveis independentes (X) e a variável alvo (y).</span>
+
 <span class="sd">"""</span>
 
 <span class="c1"># Carregar a base de dados</span>
@@ -8208,12 +8218,16 @@ weighted avg       0.95      0.95      0.95       440
 <span class="sd">## Pontos Fortes e Limitações:</span>
 <span class="sd">•	Random Forest teve a melhor performance global, sendo robusto em diferentes classes. Seu desempenho é ótimo para capturar interações complexas </span>
 <span class="sd">entre variáveis, mas pode ser mais lento e menos interpretável.</span>
+
 <span class="sd">•	SVM demonstrou alta precisão, especialmente em classes bem separadas. No entanto, o custo computacional pode ser elevado conforme o tamanho </span>
 <span class="sd">do conjunto de dados cresce.</span>
+
 <span class="sd">•	KNN teve uma acurácia relativamente alta, mas apresenta desafios em termos de eficiência para conjuntos grandes, devido à necessidade de </span>
 <span class="sd">calcular distâncias para cada nova predição.</span>
+
 <span class="sd">•	Regressão Logística foi o modelo com menor acurácia, possivelmente devido à linearidade dos dados. Além disso, o aviso de ConvergenceWarning </span>
 <span class="sd">sugere que ajustes nos hiperparâmetros ou pré-processamento podem ser necessários.</span>
+
 <span class="sd">•	Redes Neurais (MLP) mostraram desempenho robusto, ficando acima da regressão logística, mas abaixo dos modelos de árvore. Dependem de um </span>
 <span class="sd">bom ajuste de hiperparâmetros para evitar problemas como overfitting.</span>
 
@@ -8296,7 +8310,8 @@ Passing `palette` without assigning `hue` is deprecated and will be removed in v
 <span class="sd">"""</span>
 <span class="sd">## Conclusão</span>
 
-<span class="sd">Exploramos a base de dados, realizamos análises descritivas e implementamos cinco algoritmos de Machine Learning para prever o tipo de cultura agrícola.   </span>
+<span class="sd">Exploramos a base de dados, realizamos análises descritivas e implementamos cinco algoritmos de Machine Learning para prever </span>
+<span class="sd">o tipo de cultura agrícola.   </span>
 
 <span class="sd">Sua análise permitiu compreender melhor as condições ideais de solo e clima para diferentes culturas agrícolas, além de avaliar a eficácia dos </span>
 <span class="sd">métodos preditivos. </span>
