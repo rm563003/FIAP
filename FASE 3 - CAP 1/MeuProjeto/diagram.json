@@ -1,0 +1,11 @@
+{
+    "sensor_data": {
+        "phosphorus": "Presente",
+        "potassium": "Ausente",
+        "ph_value": 650,
+        "soil_humidity": 35.5,
+        "relay_status": "Ativado"
+    }
+}
+
+
