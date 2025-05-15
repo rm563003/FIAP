@@ -1,5 +1,11 @@
 
 [wokwi]
 version = 1
-elf = ".pio/build/esp32/firwre.elf"
-firware = ".pio/build/esp32/firware.bin"
+elf = ".pio/build/esp32/firmware.elf"
+firmware = ".pio/build/esp32/firmware.bin"
+[env] 
+BOARD = "arduino-uno"
+
+
+
+
