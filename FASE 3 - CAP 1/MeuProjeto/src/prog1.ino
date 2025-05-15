@@ -21,12 +21,12 @@ void setup() {
 }
 
 void loop() {
-    int phosphorus = digitalRead(PHOS_PIN);
-    int potassium = digitalRead(POTASS_PIN);
-    int ph_value = analogRead(LDR_PIN);
-    float soilHumidity = dht.readHumidity();
+    int phosphorus = digitalRead(PHOS_PIN);   // Leitura do botão (Fósforo)
+    int potassium = digitalRead(POTASS_PIN);  // Leitura do botão (Potássio)
+    int ph_value = analogRead(LDR_PIN);       // Leitura do sensor de pH
+    float soilHumidity = dht.readHumidity();  // Leitura do sensor de umidade
 
-    // Lógica de acionamento do relé
+    // Lógica de acionamento do relé: Se umidade < 40%, ligar bomba
     bool relayStatus = (soilHumidity < 40.0);
     digitalWrite(RELAY_PIN, relayStatus ? HIGH : LOW);
 
@@ -43,6 +43,6 @@ void loop() {
     serializeJson(doc, jsonStr);
     Serial.println(jsonStr);
 
-    delay(2000);
+    delay(2000); // Aguarda 2 segundos antes da próxima leitura
 }
 
