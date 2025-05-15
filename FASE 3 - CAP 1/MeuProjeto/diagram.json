@@ -1,11 +1,15 @@
 {
-    "sensor_data": {
-        "phosphorus": "Presente",
-        "potassium": "Ausente",
-        "ph_value": 650,
-        "soil_humidity": 35.5,
-        "relay_status": "Ativado"
-    }
+  "version": 1,
+  "author": "Uri Shaked",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-arduino-uno", "id": "uno", "top": 77.4, "left": -96.6, "attrs": {} },
+    { "type": "wokwi-dht22", "id": "dht", "top": -57.3, "left": 23.4, "attrs": {} }
+  ],
+  "connections": [
+    [ "uno:GND.1", "dht:GND", "black", [ "v-20", "*", "v5" ] ],
+    [ "uno:2", "dht:SDA", "green", [ "v-16", "*", "h0" ] ],
+    [ "uno:5V", "dht:VCC", "red", [ "v20", "*", "h0" ] ]
+  ],
+  "dependencies": {}
 }
-
-
