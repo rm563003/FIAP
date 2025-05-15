@@ -2,12 +2,12 @@
 #include <DHT.h>
 #include <ArduinoJson.h>
 
-#define DHTPIN 4
+#define DHTPIN 4       // Pino do sensor DHT22
 #define DHTTYPE DHT22
-#define LDR_PIN 34
-#define PHOS_PIN 12
-#define POTASS_PIN 14
-#define RELAY_PIN 26
+#define LDR_PIN 34     // Pino do sensor de pH (simulado com LDR)
+#define PHOS_PIN 12    // Pino do sensor de Fósforo (botão)
+#define POTASS_PIN 14  // Pino do sensor de Potássio (botão)
+#define RELAY_PIN 26   // Pino do relé (bomba de irrigação)
 
 DHT dht(DHTPIN, DHTTYPE);
 
