@@ -52,9 +52,9 @@ O conjunto de dados é bem estruturado e adequado para análises de Machine Lear
 ## 🧠 Análise dos resultados dos modelos de classificação 
 
 🔹 Melhor desempenho geral: Random Forest
-###•	Alta acurácia (92,06%), precisão e revocação equilibradas.
-###•	Melhor AUC-ROC (98,30%), indicando excelente distinção entre classes.
-###•	Menor Log Loss (0,2246), o que significa que as previsões do modelo são confiáveis.
+-•	Alta acurácia (92,06%), precisão e revocação equilibradas.
+-•	Melhor AUC-ROC (98,30%), indicando excelente distinção entre classes.
+-•	Menor Log Loss (0,2246), o que significa que as previsões do modelo são confiáveis.
 
 🔹 Bom desempenho: KNN e Regressão Logística
 •	O KNN tem boa acurácia (87,30%) e AUC-ROC (94,97%), mas seu Log Loss (1,8758) é elevado, sugerindo previsões menos confiáveis.
