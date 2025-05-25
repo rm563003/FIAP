@@ -71,7 +71,8 @@ O conjunto de dados é bem estruturado e adequado para análises de Machine Lear
 ✅ SVM e Naive Bayes podem ser úteis dependendo da natureza dos dados, mas parecem menos eficazes aqui.
 
 ---
-######################################################################################################################################################################################
+
+=====================================================================================================================
 ```
 
 ## 📋 Licença
