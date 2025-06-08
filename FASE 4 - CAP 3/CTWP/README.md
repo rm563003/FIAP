@@ -20,8 +20,8 @@
 **👨‍****🎓 Integrantes:**
 
 - Fátima Vilela Candal
-- Guilherme Campos Hermanowski
 - Gabriel Viel dos Santos Delfino
+- Guilherme Campos Hermanowski
 - Jonathan Willian Luft
 - Matheus Alboredo Soares
   
