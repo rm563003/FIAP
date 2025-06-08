@@ -9,7 +9,11 @@
 
 **
 
-**Nome do grupo: Grupo XX
+---
+
+**Nome do grupo: Grupo 13
+
+---
 
 **
 
@@ -21,7 +25,7 @@
 - Jonathan Willian Luft
 - Matheus Alboredo Soares
   
-  
+---  
 
 **👩‍****🏫 Professores:**
 
@@ -29,13 +33,13 @@
 
 **Coordenador(a): André  Godoi Chiovato
 
-
+---
 
 **📜 Descrição**
 
 Este projeto visa a classificação de variedades de grãos de trigo com base em suas características físicas, seguindo a metodologia CRISP-DM. O processo envolve um conjunto de tarefas bem detalhadas, incluindo análise exploratória dos dados, pré-processamento, implementação de algoritmos de classificação, otimização de modelos e interpretação dos resultados.
 
-
+---
 
 **🗂️ Estrutura do Projeto**
 
@@ -59,7 +63,7 @@ https://github.com/rm563003/FIAP/tree/main/FASE%204%20-%20CAP%203/CTWP
 ├── 📄 README.md
 ```
   
-  
+---  
 
 **🔧 DATASET**
 
@@ -120,6 +124,9 @@ FASE4_SEEDS.ipynb
 
 •        Naive Bayes tem a menor acurácia (82,54%) e um Log Loss maior (0,8231), o que pode indicar previsões menos certeiras.
 
+---
+
+
 **🔧 Conclusão e recomendações**
 
 ✅ Random Forest parece ser a melhor escolha para essa tarefa, pois equilibra bem todas as métricas.
@@ -131,7 +138,8 @@ FASE4_SEEDS.ipynb
 ✅ SVM e Naive Bayes podem ser úteis dependendo da natureza dos dados, mas parecem menos eficazes aqui.
 
 
+---
 
 **📋**Licença**
 
-[MODELO GIT FIAP](https://github.com/agodoi/template) por [Fiap](https://fiap.com.br/) está licenciado sobre [Attribution 4.0 International](http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1).
+**[MODELO GIT FIAP](https://github.com/agodoi/template) por [Fiap](https://fiap.com.br/) está licenciado sobre [Attribution 4.0 International](http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1).
