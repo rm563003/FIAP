@@ -41,11 +41,11 @@ Este projeto visa a classificação de variedades de grãos de trigo com base em
 
 Os arquivos estão no GITHUB: 
 
-https://github.com/rm563003/FIAP/tree/main/FASE%204%20-%20CAP%203
+https://github.com/rm563003/FIAP/tree/main/FASE%204%20-%20CAP%203/CTWP
 
 ```
 📂 FIAP/ 
-├── 📁 FASE 4 - CAP 3/
+├── 📁 FASE 4 - CAP 3/CTWP
 │     ├── 📁 IMAGES/
 │           └── CORRELACAO.png
 │           └── HISTOGRAMA.png
@@ -56,6 +56,7 @@ https://github.com/rm563003/FIAP/tree/main/FASE%204%20-%20CAP%203
 │   └── 📄 README.pdf
 │   └── 📄 requirements.txt
 │   └── 📄 seeds_dataset.txt
+├── 📄 README.md
 ```
   
   
@@ -79,8 +80,8 @@ O conjunto de dados é bem estruturado e adequado para análises de Machine Lear
 1. Clone o repositório:
 
 ```bash
-git clone https://github.com/rm563003/FIAP/tree/main/FASE%204%20-%20CAP%203
-cd FASE 4 - CAP 3
+git clone https://github.com/rm563003/FIAP/tree/main/FASE%204%20-%20CAP%203/CTWP
+cd CTWP
 ```
 
 2. Instale os pacotes:
