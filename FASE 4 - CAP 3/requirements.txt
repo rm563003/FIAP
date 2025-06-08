@@ -1,8 +1,9 @@
-pip install scikit-learn
-pip install pandas
-pip install numpy
-pip install numpy scipy
-pip install matplotlib seaborn
-pip install matplotlib pyplot
-pip install joblib
+scikit-learn
+pandas
+numpy
+numpy scipy
+matplotlib
+matplotlib seaborn
+matplotlib pyplot
+joblib
 
