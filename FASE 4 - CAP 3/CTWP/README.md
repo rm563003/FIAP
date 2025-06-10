@@ -50,6 +50,10 @@ https://github.com/rm563003/FIAP/tree/main/FASE%204%20-%20CAP%203/CTWP
 ```
 📂 FIAP/ 
 ├── 📁 FASE 4 - CAP 3/CTWP
+│     ├── 📁 DOCUMENT/
+│           └── FASE4_SEEDS.html
+│           └── FASE4_SEEDS.pdf
+│           └── README.pdf
 │     ├── 📁 IMAGES/
 │           └── CORRELACAO.png
 │           └── HISTOGRAMA.png
@@ -57,10 +61,8 @@ https://github.com/rm563003/FIAP/tree/main/FASE%204%20-%20CAP%203/CTWP
 │           └── VARIAVEIS_RANDON_FOREST.png
 │   └── 📄 FASE4_SEEDS.ipynb
 │   └── 📄 README.md
-│   └── 📄 README.pdf
 │   └── 📄 requirements.txt
 │   └── 📄 seeds_dataset.txt
-├── 📄 README.md
 ```
   
 ---  
@@ -83,22 +85,28 @@ O conjunto de dados é bem estruturado e adequado para análises de Machine Lear
 
 1. Clone o repositório:
 
-```bash
+```
 git clone https://github.com/rm563003/FIAP/tree/main/FASE%204%20-%20CAP%203/CTWP
 cd CTWP
 ```
 
 2. Instale os pacotes:
 
-```bash
+```
 pip install -r requirements.txt
 ```
 
 3. Inicie o sistema:
 
-```bash
-FASE4_SEEDS.ipynb
 ```
+FASE4_SEEDS.ipynb
+
+
+Visão do código executado:
+https://github.com/rm563003/FIAP/blob/main/FASE%204%20-%20CAP%203/CTWP/DOCUMENT/FASE4_SEEDS.pdf
+```
+
+
 
 ---
 
