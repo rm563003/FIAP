@@ -1,0 +1,7 @@
+train: /content/drive/MyDrive/FarmTechVision_Grupo7/dataset/images/train
+val: /content/drive/MyDrive/FarmTechVision_Grupo7/dataset/images/val
+test: /content/drive/MyDrive/FarmTechVision_Grupo7/labels/test
+
+nc: 2
+names: ['cat', 'bike']
+
