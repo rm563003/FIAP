@@ -3,11 +3,7 @@
 
 ## Projeto FarmTech Solutions – Visão Computacional com YOLOv5, YOLOv3 e CNN do zero
 
-
-
 ## ** 📁 **Sobre o Projeto**
-
-
 
 ## 📌 Projeto FarmTech Solutions – Visão Computacional com YOLOv5,  YOLOv3 e CNN do zero
 
@@ -42,13 +38,13 @@ Demonstrar o uso de YOLOv5, YOLOv3 e CNN do zero para detecção de objetos em i
 
 [FarmTechVision_Grupo7 - Google Drive]
 
-(https://drive.google.com/drive/folders/1e6rJrdMxQRRpNJW-nlHGcV0AqA_5cumV)
+https://drive.google.com/drive/folders/1e6rJrdMxQRRpNJW-nlHGcV0AqA_5cumV
 
 
 
 [FIAP/FarmTechVision_Grupo7 at main · rm563003/FIAP · GitHub]
 
-(https://github.com/rm563003/FIAP/tree/main/FarmTechVision_Grupo7)
+https://github.com/rm563003/FIAP/tree/main/FarmTechVision_Grupo7
 
             
 
@@ -83,8 +79,6 @@ https://github.com/rm563003/FIAP/tree/main/FarmTechVision_Grupo7
 │   └── 📄 README.md
 │   └── 📄 README.pdf
 
-
-
 ## 🗂**️** DATASET GOOGLE DRIVE
 
 O conjunto de dados foi organizado no Google Drive e contém:
@@ -107,8 +101,6 @@ O conjunto de dados foi organizado no Google Drive e contém:
 
 https://drive.google.com/drive/folders/1qkNb4RV7mHWI3fwiyvHKzPm7rb9KBSKN
 
-
-
 /FarmTechVision_Grupo7/
 
   └── dataset/
@@ -129,17 +121,11 @@ https://drive.google.com/drive/folders/1qkNb4RV7mHWI3fwiyvHKzPm7rb9KBSKN
 
           └── test/
 
-
-
 ## 🚀 Entrega 1 – YOLOv5 Customizado
 
 ## [FatimaCandal_rm563003_pbl_fase6.ipynb - Colab]
 
 https://colab.research.google.com/drive/17r-pJUDiiel7gbe-Dt6pAYz_TpRnsdoh
-
-
-
-
 
 ## 🚀 **Treinamento**
 
@@ -250,8 +236,6 @@ bem-sucedido e que o modelo YOLOv5 está apto para aplicações práticas em vis
 computacional, como segurança patrimonial, monitoramento animal ou controle de
 acesso em ambientes rurais e urbanos.
 
-
-
 ## 📷 **Prints das detecções “detect_60epocas”**
 
  [https://drive.google.com/drive/folders/1lrif1HiMNxfmbBn5fnEBiN4T8EeIdD](https://drive.google.com/drive/folders/1lrif1HiMNxfmbBn5fnEBiN4T8EeIdDIK?usp=drive_link)
@@ -273,8 +257,6 @@ observadas:
 
 ## 📉 **Perdas de Treinamento (`train/box_loss`, `train/obj_loss`, `train/cls_loss`) - “detect_60epocas”
 
-
-
 As curvas de perda de treinamento mostram uma **tendência
 decrescente consistente**, indicando que o modelo está aprendendo a representar
 melhor os objetos ao longo das épocas. A perda de caixa (`box_loss`) teve uma
@@ -288,8 +270,6 @@ tarefas de detecção e classificação.
 ## 📉 **Perdas de Validação (`val/box_loss`, `val/obj_loss`,**
 
 ## `val/cls_loss`) - “detect_60epocas”
-
-
 
 As perdas de validação seguiram uma tendência semelhante às
 de treinamento, com **valores próximos e estáveis**, o que indica que o modelo
@@ -413,8 +393,6 @@ em versões futuras.
 
 https://colab.research.google.com/drive/1oIQeX-O1x54jBryk0rwJXX4GrAnyRiUH)
 
-
-
 <style>
 </style>
 
@@ -425,8 +403,6 @@ https://colab.research.google.com/drive/1oIQeX-O1x54jBryk0rwJXX4GrAnyRiUH)
 - YOLOv3 tradicional via XXXXXX
 
 - CNN do zero com Keras
-
-
 
 <style>
 </style>
@@ -444,8 +420,6 @@ https://colab.research.google.com/drive/1oIQeX-O1x54jBryk0rwJXX4GrAnyRiUH)
 | Tempo<br> de inferência (s)    | 0.5                  | 0.2                    | 0.4             |
 | Tipo<br> de saída              | Detecção             | Detecção               | Classificação   |
 
-
-
 ## 📈 Conclusões
 
 <style>
@@ -456,10 +430,6 @@ https://colab.research.google.com/drive/1oIQeX-O1x54jBryk0rwJXX4GrAnyRiUH)
 - YOLOv3 é útil para testes rápidos e protótipos.
 
 - CNN é eficaz para classificação simples com baixo custo computacional.
-
-
-
-
 
 ## 👥 **Autores**
 
