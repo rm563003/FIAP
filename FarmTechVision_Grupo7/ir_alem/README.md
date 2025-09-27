@@ -12,16 +12,12 @@ Este projeto demonstra as soluções desenvolvidas para a Entrega Ir Além do pr
 <style>
 </style>
 
-## 📌 Descrição do Projeto
-
-A FarmTech Solutions está expandindo seus serviços de inteligência artificial
-para além do agronegócio, atuando agora nas áreas de saúde animal, segurança
-patrimonial, controle de acesso e análise de documentos. Como parte do time de
-desenvolvedores, nosso objetivo foi demonstrar na prática o funcionamento de um
-sistema de visão computacional utilizando YOLO, com foco em acurácia e
-aplicabilidade.
-
-           
+## 📌 Objetivo
+Explorar três abordagens avançadas de classificação de imagens:
+1. Transfer Learning 
+2. Data Augmentation 
+3. Fine Tuning
+      
 
 ## 📹 **Demonstração em Vídeo**
 
@@ -52,7 +48,7 @@ https://github.com/rm563003/FIAP/tree/main/FarmTechVision_Grupo7
 
 Os arquivos estão no GITHUB:
 
-https://github.com/rm563003/FIAP/tree/main/FarmTechVision_Grupo7
+https://github.com/rm563003/FIAP/tree/main/FarmTechVision_Grupo7/ir_alem/
 
 📂 FIAP/ 
 ├── 📁 FarmTechVision_Grupo7/
@@ -77,7 +73,7 @@ https://github.com/rm563003/FIAP/tree/main/FarmTechVision_Grupo7
 
 │                      └── entrega2_comparativo_fase6.ipynb
 │   └── 📄 README.md
-│   └── 📄 README.pdf
+
 
 ## 🗂**️** DATASET GOOGLE DRIVE
 
@@ -444,4 +440,5 @@ https://colab.research.google.com/drive/1oIQeX-O1x54jBryk0rwJXX4GrAnyRiUH)
 •       Jonathan Willian Luft
 
 •       Matheus Alboredo Soares
+
 
