@@ -1,13 +1,13 @@
 <style>
 </style>
 
-## Projeto FarmTech Solutions – Visão Computacional com YOLOv5, YOLOv3 e CNN do zero
+## Projeto FarmTech Solutions – "Ir Além" – Transfer Learning, Data Augmentation e Fine Tunning
 
 ## ** 📁 **Sobre o Projeto**
 
-## 📌 Projeto FarmTech Solutions – Visão Computacional com YOLOv5,  YOLOv3 e CNN do zero
+## 📌 Projeto FarmTech Solutions – "Ir Além" – Transfer Learning, Data Augmentation e Fine Tunning
 
-Este projeto demonstra as soluções desenvolvidas para as Entregas 1 e 2 do projeto da disciplina PBL Fase 6 da FIAP, aplicando técnicas de Visão Computacional com YOLOv5, YOLOv3 e CNN do zero, com foco em dois objetos distintos: **cat** e **bike**. O objetivo é treinar um modelo capaz de identificar esses objetos com alta acurácia, validando seu uso em cenários reais da FarmTech Solutions. 
+Este projeto demonstra as soluções desenvolvidas para a Entrega Ir Além do projeto da disciplina PBL Fase 6 da FIAP, aplicando técnicas xxxxxxxxxx. 
 
 <style>
 </style>
@@ -444,3 +444,4 @@ https://colab.research.google.com/drive/1oIQeX-O1x54jBryk0rwJXX4GrAnyRiUH)
 •       Jonathan Willian Luft
 
 •       Matheus Alboredo Soares
+
