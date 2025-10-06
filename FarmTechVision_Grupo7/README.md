@@ -3,7 +3,7 @@
 
 ## Projeto FarmTech Solutions – Visão Computacional com YOLOv5, YOLOv3 e CNN do zero
 
-## ** 📁 **Sobre o Projeto**
+## 📁 **Sobre o Projeto**
 
 ## 📌 Projeto FarmTech Solutions – Visão Computacional com YOLOv5,  YOLOv3 e CNN do zero
 
@@ -34,13 +34,9 @@ projeto: [YouTube – Não listado] (https://www.youtube.com/watch?v=SEU_LINK_AQ
 
 Demonstrar o uso de YOLOv5, YOLOv3 e CNN do zero para detecção de objetos em imagens, com aplicação prática para clientes da FarmTech Solutions.
 
-
-
 [FarmTechVision_Grupo7 - Google Drive]
 
 https://drive.google.com/drive/folders/1e6rJrdMxQRRpNJW-nlHGcV0AqA_5cumV
-
-
 
 [FIAP/FarmTechVision_Grupo7 at main · rm563003/FIAP · GitHub]
 
@@ -54,32 +50,15 @@ Os arquivos estão no GITHUB:
 
 https://github.com/rm563003/FIAP/tree/main/FarmTechVision_Grupo7
 
-📂 FIAP/ 
-├── 📁 FarmTechVision_Grupo7/
 
-│ ├── 📁 config/
-│           └── data.yaml
 
-│ ├── 📁 dataset/
-│ ├── 📁 imagens/
+![](C:\Users\User\AppData\Roaming\marktext\images\2025-10-06-11-31-15-image.png)
 
-│           └── 📁detect_30epocas
-│           └── 📁detect_60epocas
 
-│           └── 📁YOLOv5_Graficos
 
-│ └── 📁notebook 
-│            └── 📁entrega1
+## 
 
-│                      └── FatimaCandal_rm563003_pbl_fase6.ipynb
-
-│            └── 📁entrega2
-
-│                      └── entrega2_comparativo_fase6.ipynb
-│   └── 📄 README.md
-│   └── 📄 README.pdf
-
-## 🗂**️** DATASET GOOGLE DRIVE
+**🗂️ DATASET GOOGLE DRIVE**
 
 O conjunto de dados foi organizado no Google Drive e contém:
 
@@ -120,6 +99,8 @@ https://drive.google.com/drive/folders/1qkNb4RV7mHWI3fwiyvHKzPm7rb9KBSKN
           ├── val/
 
           └── test/
+
+
 
 ## 🚀 Entrega 1 – YOLOv5 Customizado
 
