@@ -52,7 +52,11 @@ https://github.com/rm563003/FIAP/tree/main/FarmTechVision_Grupo7
 
 
 
-[FarmTechVision_Grupo7 - Google Drive](https://drive.google.com/drive/folders/1e6rJrdMxQRRpNJW-nlHGcV0AqA_5cumV)
+<img title="" src="Projeto.png" alt="">
+
+
+
+<img title="" src="file:///G:/PARTICULAR/FIAP_IA/Fase 6 1009 até 1410/TRABALHO/DEEP/FarmTechVision_Grupo7/imagens/Projeto.png" alt="">
 
 
 
