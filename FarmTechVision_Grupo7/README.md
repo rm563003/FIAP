@@ -52,7 +52,9 @@ https://github.com/rm563003/FIAP/tree/main/FarmTechVision_Grupo7
 
 
 
-<img src="file:///C:/Users/User/AppData/Roaming/marktext/images/2025-10-06-11-31-15-image.png" title="" alt="" data-align="inline">
+[FarmTechVision_Grupo7 - Google Drive](https://drive.google.com/drive/folders/1e6rJrdMxQRRpNJW-nlHGcV0AqA_5cumV)
+
+
 
 ## 
 
