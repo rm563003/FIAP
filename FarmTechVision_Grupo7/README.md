@@ -52,9 +52,7 @@ https://github.com/rm563003/FIAP/tree/main/FarmTechVision_Grupo7
 
 
 
-![](C:\Users\User\AppData\Roaming\marktext\images\2025-10-06-11-31-15-image.png)
-
-
+<img src="file:///C:/Users/User/AppData/Roaming/marktext/images/2025-10-06-11-31-15-image.png" title="" alt="" data-align="inline">
 
 ## 
 
@@ -99,8 +97,6 @@ https://drive.google.com/drive/folders/1qkNb4RV7mHWI3fwiyvHKzPm7rb9KBSKN
           ├── val/
 
           └── test/
-
-
 
 ## 🚀 Entrega 1 – YOLOv5 Customizado
 
