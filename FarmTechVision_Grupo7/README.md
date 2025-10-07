@@ -50,19 +50,13 @@ Os arquivos estão no GITHUB:
 
 https://github.com/rm563003/FIAP/tree/main/FarmTechVision_Grupo7
 
-
-
 <img title="" src="Projeto.png" alt="">
-
-
 
 <img title="" src="file:///G:/PARTICULAR/FIAP_IA/Fase 6 1009 até 1410/TRABALHO/DEEP/FarmTechVision_Grupo7/imagens/Projeto.png" alt="">
 
-
-
 ## 
 
-**🗂️ DATASET GOOGLE DRIVE**
+### **🗂️ DATASET GOOGLE DRIVE**
 
 O conjunto de dados foi organizado no Google Drive e contém:
 
@@ -104,7 +98,7 @@ https://drive.google.com/drive/folders/1qkNb4RV7mHWI3fwiyvHKzPm7rb9KBSKN
 
           └── test/
 
-## 🚀 Entrega 1 – YOLOv5 Customizado
+# 🚀 Entrega 1 – YOLOv5 Customizado
 
 ## [FatimaCandal_rm563003_pbl_fase6.ipynb - Colab]
 
@@ -365,7 +359,19 @@ patrimonial e controle de acessos.
 -  A limitação principal foi o tamanho reduzido do dataset, que pode ser expandido
 em versões futuras.
 
-               
+  
+
+# 🔍 Entrega 2 –    Projeto FarmTech Solutions: Visão Computacional com YOLOv5 adaptável, YOLO tradicional, CNN do zero
+
+
+
+### Comparar o desempenho de três abordagens de Visão Computacional aplicadas à base personalizada criada na Entrega 1:
+
+### 2. YOLO Adaptável — modelo treinado com base criada na Entrega 1
+
+### 3. YOLO Padrão — modelo pré-treinado (sem customização)
+
+### 4. CNN do Zero — rede neural convolucional construída manualmente
 
 <style>
 </style>
@@ -381,11 +387,11 @@ https://colab.research.google.com/drive/1oIQeX-O1x54jBryk0rwJXX4GrAnyRiUH)
 
 ## 🔄 Abordagens implementadas:
 
-- YOLOv5 adaptável (Entrega 1)
+## 2. YOLO Adaptável — modelo treinado com base criada na Entrega 1
 
-- YOLOv3 tradicional via XXXXXX
+### 3. YOLO Padrão — modelo pré-treinado (sem customização)
 
-- CNN do zero com Keras
+### 4. CNN do Zero — rede neural convolucional construída manualmente
 
 <style>
 </style>
@@ -403,27 +409,39 @@ https://colab.research.google.com/drive/1oIQeX-O1x54jBryk0rwJXX4GrAnyRiUH)
 | Tempo<br> de inferência (s)    | 0.5                  | 0.2                    | 0.4             |
 | Tipo<br> de saída              | Detecção             | Detecção               | Classificação   |
 
-## 📈 Conclusões
+
+
+
+
+
+
+ 
+
+# 📈 Conclusões
 
 <style>
 </style>
 
-- YOLOv5 é ideal para aplicações com necessidade de localização precisa.
+### - YOLOv5 é ideal para aplicações com necessidade de localização precisa.
 
-- YOLOv3 é útil para testes rápidos e protótipos.
+### - YOLOv3 é útil para testes rápidos e protótipos.
 
-- CNN é eficaz para classificação simples com baixo custo computacional.
+### - CNN é eficaz para classificação simples com baixo custo computacional.
 
-## 👥 **Autores**
 
-## Grupo 7 — FIAP
 
-•       Fátima Vilela Candal
 
-•       Gabriel Viel dos Santos Delfino
 
-•       Guilherme Campos Hermanowski
+# 👥 **Autores**
 
-•       Jonathan Willian Luft
+# Grupo 7 — FIAP
 
-•       Matheus Alboredo Soares
+## •       Fátima Vilela Candal
+
+## •       Gabriel Viel dos Santos Delfino
+
+## •       Guilherme Campos Hermanowski
+
+## •       Jonathan Willian Luft
+
+## •       Matheus Alboredo Soares
