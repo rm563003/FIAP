@@ -98,23 +98,17 @@ https://drive.google.com/drive/folders/1qkNb4RV7mHWI3fwiyvHKzPm7rb9KBSKN
 
           └── test/
 
-
-
 # 🚀 Entrega 1 – YOLOv5 Customizado
 
 ## [FatimaCandal_rm563003_pbl_fase6.ipynb - Colab]
 
 https://colab.research.google.com/drive/17r-pJUDiiel7gbe-Dt6pAYz_TpRnsdoh
 
-
-
 ## 🚀 **Treinamento**
 
 -  Dois modelos treinados: 30 e 60 épocas
 
 -  Comparação de desempenho e acurácia
-
-
 
 O modelo YOLOv5 foi treinado em duas configurações:
 
@@ -367,68 +361,7 @@ em versões futuras.
 
   
 
-# 🔍 Entrega 2 –    Projeto FarmTech Solutions: Visão Computacional com YOLOv5 adaptável, YOLOv5 tradicional, CNN do zero
-
-### Comparar o desempenho de três abordagens de Visão Computacional aplicadas à base personalizada criada na Entrega 1:
-
-### 2. YOLO Adaptável — modelo treinado com base criada na Entrega 1
-
-### 3. YOLO Padrão — modelo pré-treinado (sem customização)
-
-### 4. CNN do Zero — rede neural convolucional construída manualmente
-
-<style>
-</style>
-
-## 🔍 Entrega 2 – Comparação de Abordagens
-
-## [entrega2_comparativo_fase6.ipynb - Colab]
-
-https://colab.research.google.com/drive/1oIQeX-O1x54jBryk0rwJXX4GrAnyRiUH)
-
-<style>
-</style>
-
-## 🔄 Abordagens implementadas:
-
-## 2. YOLO Adaptável — modelo treinado com base criada na Entrega 1
-
-### 3. YOLO Padrão — modelo pré-treinado (sem customização)
-
-### 4. CNN do Zero — rede neural convolucional construída manualmente
-
-<style>
-</style>
-
-## 📊 Comparativo de Métricas
-
-<style> </style>
-
-| Critério                       | YOLOv5s<br> Adaptável | YOLOv5s<br> Tradicional | CNN<br> do Zero |
-| ------------------------------ | --------------------- | ----------------------- | --------------- |
-| Precisão                       | 0.93                  | 0.78                    | 0.91            |
-| Revocação                      | 1.00                  | 0.85                    | 0.88            |
-| mAP@0.5                        | 0.995                 | 0.82                    | -----------     |
-| Tempo<br> de treinamento (min) | 45                    | 0                       | 12              |
-| Tempo<br> de inferência (s)    | 0.5                   | 0.2                     | 0.4             |
-| Tipo<br> de saída              | Detecção              | Detecção                | Classificação   |
-
- 
-
-# 📈 Conclusões
-
-<style>
-</style>
-
-### - YOLOv5s é ideal para aplicações com necessidade de localização precisa.
-
-### - YOLOv5s é útil para testes rápidos e protótipos.
-
-### - CNN é eficaz para classificação simples com baixo custo computacional.
-
-
-
-
+# 
 
 # 👥 **Autores**
 
