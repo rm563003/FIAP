@@ -1,13 +1,13 @@
 <style>
 </style>
 
-## Projeto FarmTech Solutions – Visão Computacional com YOLOv5, YOLOv3 e CNN do zero
+## Projeto FarmTech Solutions – Visão Computacional com YOLOv5 e CNN do zero
 
 ## 📁 **Sobre o Projeto**
 
-## 📌 Projeto FarmTech Solutions – Visão Computacional com YOLOv5,  YOLOv3 e CNN do zero
+## 📌 Projeto FarmTech Solutions – Visão Computacional com YOLOv5v e CNN do zero
 
-Este projeto demonstra as soluções desenvolvidas para as Entregas 1 e 2 do projeto da disciplina PBL Fase 6 da FIAP, aplicando técnicas de Visão Computacional com YOLOv5, YOLOv3 e CNN do zero, com foco em dois objetos distintos: **cat** e **bike**. O objetivo é treinar um modelo capaz de identificar esses objetos com alta acurácia, validando seu uso em cenários reais da FarmTech Solutions. 
+Este projeto demonstra as soluções desenvolvidas para as Entregas 1 e 2 do projeto da disciplina PBL Fase 6 da FIAP, aplicando técnicas de Visão Computacional com YOLOv5 e CNN do zero, com foco em dois objetos distintos: **cat** e **bike**. O objetivo é treinar um modelo capaz de identificar esses objetos com alta acurácia, validando seu uso em cenários reais da FarmTech Solutions. 
 
 <style>
 </style>
@@ -32,7 +32,7 @@ projeto: [YouTube – Não listado] (https://www.youtube.com/watch?v=SEU_LINK_AQ
 
 ## 📌 **Objetivo**
 
-Demonstrar o uso de YOLOv5, YOLOv3 e CNN do zero para detecção de objetos em imagens, com aplicação prática para clientes da FarmTech Solutions.
+Demonstrar o uso de YOLOv5 e CNN do zero para detecção de objetos em imagens, com aplicação prática para clientes da FarmTech Solutions.
 
 [FarmTechVision_Grupo7 - Google Drive]
 
@@ -98,17 +98,23 @@ https://drive.google.com/drive/folders/1qkNb4RV7mHWI3fwiyvHKzPm7rb9KBSKN
 
           └── test/
 
+
+
 # 🚀 Entrega 1 – YOLOv5 Customizado
 
 ## [FatimaCandal_rm563003_pbl_fase6.ipynb - Colab]
 
 https://colab.research.google.com/drive/17r-pJUDiiel7gbe-Dt6pAYz_TpRnsdoh
 
+
+
 ## 🚀 **Treinamento**
 
 -  Dois modelos treinados: 30 e 60 épocas
 
 -  Comparação de desempenho e acurácia
+
+
 
 O modelo YOLOv5 foi treinado em duas configurações:
 
@@ -361,9 +367,7 @@ em versões futuras.
 
   
 
-# 🔍 Entrega 2 –    Projeto FarmTech Solutions: Visão Computacional com YOLOv5 adaptável, YOLO tradicional, CNN do zero
-
-
+# 🔍 Entrega 2 –    Projeto FarmTech Solutions: Visão Computacional com YOLOv5 adaptável, YOLOv5 tradicional, CNN do zero
 
 ### Comparar o desempenho de três abordagens de Visão Computacional aplicadas à base personalizada criada na Entrega 1:
 
@@ -400,20 +404,14 @@ https://colab.research.google.com/drive/1oIQeX-O1x54jBryk0rwJXX4GrAnyRiUH)
 
 <style> </style>
 
-| Critério                       | YOLOv5<br> Adaptável | YOLOv3<br> Tradicional | CNN<br> do Zero |
-| ------------------------------ | -------------------- | ---------------------- | --------------- |
-| Precisão                       | 0.93                 | 0.78                   | 0.91            |
-| Revocação                      | 1.00                 | 0.85                   | 0.88            |
-| mAP@0.5                        | 0.995                | 0.82                   | -----------     |
-| Tempo<br> de treinamento (min) | 45                   | 0                      | 12              |
-| Tempo<br> de inferência (s)    | 0.5                  | 0.2                    | 0.4             |
-| Tipo<br> de saída              | Detecção             | Detecção               | Classificação   |
-
-
-
-
-
-
+| Critério                       | YOLOv5s<br> Adaptável | YOLOv5s<br> Tradicional | CNN<br> do Zero |
+| ------------------------------ | --------------------- | ----------------------- | --------------- |
+| Precisão                       | 0.93                  | 0.78                    | 0.91            |
+| Revocação                      | 1.00                  | 0.85                    | 0.88            |
+| mAP@0.5                        | 0.995                 | 0.82                    | -----------     |
+| Tempo<br> de treinamento (min) | 45                    | 0                       | 12              |
+| Tempo<br> de inferência (s)    | 0.5                   | 0.2                     | 0.4             |
+| Tipo<br> de saída              | Detecção              | Detecção                | Classificação   |
 
  
 
@@ -422,9 +420,9 @@ https://colab.research.google.com/drive/1oIQeX-O1x54jBryk0rwJXX4GrAnyRiUH)
 <style>
 </style>
 
-### - YOLOv5 é ideal para aplicações com necessidade de localização precisa.
+### - YOLOv5s é ideal para aplicações com necessidade de localização precisa.
 
-### - YOLOv3 é útil para testes rápidos e protótipos.
+### - YOLOv5s é útil para testes rápidos e protótipos.
 
 ### - CNN é eficaz para classificação simples com baixo custo computacional.
 
