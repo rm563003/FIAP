@@ -5,7 +5,7 @@
 
 
 
-## ** 📁 **Sobre o Projeto**
+# 📁 **Sobre o Projeto**
 
 ## 📌 Projeto FarmTech Solutions – Visão Computacional com YOLOv5, CNN do zero, Ir Além (Usando Transfer Learning e Fine Tuning)
 
@@ -74,7 +74,9 @@ O conjunto de dados foi organizado no Google Drive e contém:
 
 -  Rotuladas com [Make Sense IA] (https://www.makesense.ai/) e salvas no formato YOLO.
 
-🔗 Acesse o dataset completo no Google Drive:  
+
+
+## 🔗 Acesse o dataset completo no Google Drive:
 
 https://drive.google.com/drive/folders/1qkNb4RV7mHWI3fwiyvHKzPm7rb9KBSKN
 
@@ -97,6 +99,8 @@ https://drive.google.com/drive/folders/1qkNb4RV7mHWI3fwiyvHKzPm7rb9KBSKN
           ├── val/
 
           └── test/
+
+
 
 ## 🚀 Entrega 1 – YOLOv5 Customizado
 
@@ -138,6 +142,14 @@ As comparações de desempenho, acurácia e tempo de execução estão documenta
 
  
 
+## [YOLOv5_Graficos - Google Drive]
+
+https://drive.google.com/drive/folders/1ZxtzbTUtuOcnu7liDHek1MWhoi8lwZDb
+
+
+
+
+
 ## 📊 **Análise Técnica dos Gráficos de Treinamento e Validação** **– YOLOv5 -  detect_30epocas”**
 
 Os gráficos apresentados representam o comportamento do
@@ -159,7 +171,7 @@ diminuíram de forma consistente, o que é um sinal positivo de aprendizado.
 
 **---**
 
-## 📉 **Perdas de Validação (`val/box_loss`, `val/obj_loss`,`val/cls_loss`) - “detect_30epocas”
+## 📉 Perdas de Validação (`val/box_loss`, `val/obj_loss`,`val/cls_loss`) - “detect_30epocas”
 
 As perdas de validação acompanharam a tendência das perdas
 de treinamento, com valores semelhantes e estáveis. Isso indica que o modelo
@@ -201,6 +213,8 @@ A métrica `mAP@0.5` ultrapassou 0.98, o que representa um desempenho excelente 
 
 Esses resultados demonstram que o treinamento foi bem-sucedido e que o modelo YOLOv5 está apto para aplicações práticas em visão computacional, como segurança patrimonial, monitoramento animal ou controle de acesso em ambientes rurais e urbanos.
 
+
+
 ## 📷 **Prints das detecções “detect_60epocas”**
 
  [https://drive.google.com/drive/folders/1lrif1HiMNxfmbBn5fnEBiN4T8EeIdD](https://drive.google.com/drive/folders/1lrif1HiMNxfmbBn5fnEBiN4T8EeIdDIK?usp=drive_link)
@@ -211,6 +225,14 @@ Esses resultados demonstram que o treinamento foi bem-sucedido e que o modelo YO
 
  
 
+## [YOLOv5_Graficos - Google Drive]
+
+https://drive.google.com/drive/folders/1ZxtzbTUtuOcnu7liDHek1MWhoi8lwZDb
+
+
+
+
+
 ## 📊 **Análise Técnica dos Gráficos de Treinamento e Validação **– YOLOv5 - “detect_60epocas”**
 
 Os gráficos gerados durante o treinamento do modelo YOLOv5 fornecem insights valiosos sobre o comportamento do modelo ao longo das épocas.
@@ -219,7 +241,7 @@ observadas:
 
 **---**
 
-## 📉 **Perdas de Treinamento (`train/box_loss`, `train/obj_loss`, `train/cls_loss`) - “detect_60epocas”
+## 📉 Perdas de Treinamento (`train/box_loss`, `train/obj_loss`, `train/cls_loss`) - “detect_60epocas”
 
 As curvas de perda de treinamento mostram uma **tendência decrescente consistente**, indicando que o modelo está aprendendo a representar
 melhor os objetos ao longo das épocas. A perda de caixa (`box_loss`) teve uma
@@ -270,7 +292,9 @@ Esses resultados demonstram que o treinamento foi bem-sucedido e que o modelo YO
 
 Realizamos dois treinamentos distintos com o modelo YOLOv5, utilizando o mesmo dataset, mas variando a quantidade de épocas: 30 e 60. A seguir, apresentamos uma análise comparativa das principais métricas de desempenho.
 
-## 📈 **Métricas de Avaliação**
+
+
+# 📈 **Métricas de Avaliação**
 
 | **Métrica**       | **30 Épocas** | **60 Épocas** | **Diferença** |
 | ----------------- | ------------- | ------------- | ------------- |
@@ -282,7 +306,29 @@ Realizamos dois treinamentos distintos com o modelo YOLOv5, utilizando o mesmo d
 
   
 
-## 📈 Interpretação
+### [YOLOv5_Graficos - Google Drive]
+
+https://drive.google.com/drive/folders/1ZxtzbTUtuOcnu7liDHek1MWhoi8lwZDb
+
+
+
+
+
+# 📈 Resultados Visuais
+
+
+
+## Segue estão os prints das imagens de teste processadas pelo modelo, com as detecções realizadas.
+
+<img src = "30-60_Epocas.png">
+
+
+
+
+
+
+
+# 📈 Interpretação
 
 - O modelo treinado com **60 épocas** apresentou **melhor desempenho em todas as
   métricas**, especialmente em mAP@0.5:0.95, que é mais exigente.
@@ -299,7 +345,7 @@ Realizamos dois treinamentos distintos com o modelo YOLOv5, utilizando o mesmo d
 
       
 
-## 📈 **Conclusões**
+# 📈 **Conclusões**
 
 -   Modelo com 60 épocas teve melhor desempenho
 
@@ -319,7 +365,7 @@ Realizamos dois treinamentos distintos com o modelo YOLOv5, utilizando o mesmo d
 <style>
 </style>
 
-## 👥 **Autores**
+# 👥 **Autores**
 
 ## Grupo 7 — FIAP
 
