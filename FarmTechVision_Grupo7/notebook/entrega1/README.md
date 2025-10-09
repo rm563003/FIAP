@@ -3,8 +3,6 @@
 
 # Projeto FarmTech Solutions – Visão Computacional com YOLOv5, CNN do zero
 
-
-
 # 📁 **Sobre o Projeto**
 
 ## 📌 Projeto FarmTech Solutions – Visão Computacional com YOLOv5, CNN do zero
@@ -25,10 +23,12 @@ aplicabilidade.
 
            
 
-## 📹 **Demonstração em Vídeo**
+# 📹 **Demonstração em Vídeo**
 
 Assista ao vídeo com a explicação e funcionamento do
-projeto: [YouTube – Não listado] (https://www.youtube.com/watch?v=SEU_LINK_AQUI)
+[FarmTechVision Grupo7 - YouTube]
+
+https://www.youtube.com/watch?v=S_f0_Zrh1Dc
 
             
 
