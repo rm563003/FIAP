@@ -1,13 +1,17 @@
 <style>
 </style>
 
-## Projeto FarmTech Solutions – Visão Computacional com YOLOv5, YOLOv3 e CNN do zero
+## Projeto FarmTech Solutions – Visão Computacional  Usando Transfer Learning e Fine Tuning
 
-## ** 📁 **Sobre o Projeto**
 
-## 📌 Projeto FarmTech Solutions – Visão Computacional com YOLOv5,  YOLOv3 e CNN do zero
 
-Este projeto demonstra as soluções desenvolvidas para as Entregas 1 e 2 do projeto da disciplina PBL Fase 6 da FIAP, aplicando técnicas de Visão Computacional com YOLOv5, YOLOv3 e CNN do zero, com foco em dois objetos distintos: **cat** e **bike**. O objetivo é treinar um modelo capaz de identificar esses objetos com alta acurácia, validando seu uso em cenários reais da FarmTech Solutions. 
+# 📁 **Sobre o Projeto**
+
+
+
+## 📌 Projeto FarmTech Solutions – Visão Computacional Usando Transfer Learning e Fine Tuning
+
+Este projeto demonstra as soluções desenvolvidas para as Entrega Ir Além (Usando Transfer Learning e Fine Tuning) da disciplina PBL Fase 6 da FIAP, aplicando técnicas de Visão Computacional com Ir Além (Usando Transfer Learning e Fine Tuning), com foco em dois objetos distintos: **cat** e **bike**. O objetivo é treinar um modelo capaz de identificar esses objetos com alta acurácia, validando seu uso em cenários reais da FarmTech Solutions. 
 
 <style>
 </style>
@@ -34,13 +38,9 @@ projeto: [YouTube – Não listado] (https://www.youtube.com/watch?v=SEU_LINK_AQ
 
 Demonstrar o uso de YOLOv5, YOLOv3 e CNN do zero para detecção de objetos em imagens, com aplicação prática para clientes da FarmTech Solutions.
 
-
-
 [FarmTechVision_Grupo7 - Google Drive]
 
 https://drive.google.com/drive/folders/1e6rJrdMxQRRpNJW-nlHGcV0AqA_5cumV
-
-
 
 [FIAP/FarmTechVision_Grupo7 at main · rm563003/FIAP · GitHub]
 
@@ -54,32 +54,13 @@ Os arquivos estão no GITHUB:
 
 https://github.com/rm563003/FIAP/tree/main/FarmTechVision_Grupo7
 
-📂 FIAP/ 
-├── 📁 FarmTechVision_Grupo7/
 
-│ ├── 📁 config/
-│           └── data.yaml
 
-│ ├── 📁 dataset/
-│ ├── 📁 imagens/
 
-│           └── 📁detect_30epocas
-│           └── 📁detect_60epocas
 
-│           └── 📁YOLOv5_Graficos
 
-│ └── 📁notebook 
-│            └── 📁entrega1
 
-│                      └── FatimaCandal_rm563003_pbl_fase6.ipynb
-
-│            └── 📁entrega2
-
-│                      └── entrega2_comparativo_fase6.ipynb
-│   └── 📄 README.md
-│   └── 📄 README.pdf
-
-## 🗂**️** DATASET GOOGLE DRIVE
+# 🗂**️** DATASET GOOGLE DRIVE
 
 O conjunto de dados foi organizado no Google Drive e contém:
 
@@ -97,7 +78,9 @@ O conjunto de dados foi organizado no Google Drive e contém:
 
 -  Rotuladas com [Make Sense IA] (https://www.makesense.ai/) e salvas no formato YOLO.
 
-🔗 Acesse o dataset completo no Google Drive:  
+
+
+## 🔗 Acesse o dataset completo no Google Drive:
 
 https://drive.google.com/drive/folders/1qkNb4RV7mHWI3fwiyvHKzPm7rb9KBSKN
 
@@ -121,326 +104,173 @@ https://drive.google.com/drive/folders/1qkNb4RV7mHWI3fwiyvHKzPm7rb9KBSKN
 
           └── test/
 
-## 🚀 Entrega 1 – YOLOv5 Customizado
 
-## [FatimaCandal_rm563003_pbl_fase6.ipynb - Colab]
 
-https://colab.research.google.com/drive/17r-pJUDiiel7gbe-Dt6pAYz_TpRnsdoh
 
-## 🚀 **Treinamento**
 
--  Dois modelos treinados: 30 e 60 épocas
+# 🚀 Ir Além (Usando Transfer Learning e Fine Tuning)
 
--  Comparação de desempenho e acurácia
+## 
 
-O modelo YOLOv5 foi treinado em duas configurações:
+# [ir_alem - Google Drive]
 
--  **Treinamento 1**: 30 épocas
+(https://drive.google.com/drive/folders/17_g6vLQpcbuGpq_2dsOPohg36Cs1zSG3)
 
-https://drive.google.com/drive/folders/1GNTK54SlLoN4LtkTbNyjCNbWyLFeVwhP
 
--  **Treinamento 2**: 60 épocas
 
-https://drive.google.com/drive/folders/1lrif1HiMNxfmbBn5fnEBiN4T8EeIdDIK
+## [FIAP/FarmTechVision_Grupo7/notebook/ir_alem at ec8c5727e5e4b09cd09bbf626f4c78b0c898cd6a · rm563003/FIAP · GitHub]
 
-As comparações de desempenho, acurácia e tempo de execução estão documentadas no notebook.
+(https://github.com/rm563003/FIAP/tree/ec8c5727e5e4b09cd09bbf626f4c78b0c898cd6a/FarmTechVision_Grupo7/notebook/ir_alem)
+
+
+
+
+
+
+
+# 📊 1 - Transfer Learning ("Transferência de Aprendizado")
+
+Transfer Learning (ou “Transferência de Aprendizado”) é uma técnica poderosa em aprendizado de máquina que permite reaproveitar o conhecimento de um modelo já treinado em uma tarefa ampla (como classificação de imagens no ImageNet) para resolver uma nova tarefa específica com menos dados e menos tempo de treinamento.
+
+## 📊 Quando usar Transfer Learning:
+
+- Quando seu dataset é pequeno ou difícil de rotular
+
+- Quando você quer resultados rápidos e confiáveis
+
+- Quando sua tarefa é semelhante à do modelo original (ex: imagens naturais)
+
+
+
+
+
+# 📊 1.1 - Reiniciar o gerador de testes e avaliar a rede após o ajuste fino apenas do cabeçote da rede
+
+
+
+## 📊 Relatório de Classificação
+
+Este relatório mostra os resultados de um modelo de classificação binária para as classes **"bike"** e **"cat"**. Os principais indicadores são:
+
+| Métrica       | Bike | Cat  | Média Macro | Média Ponderada |
+| ------------- | ---- | ---- | ----------- | --------------- |
+| **Precisão**  | 1.00 | 1.00 | 1.00        | 1.00            |
+| **Revocação** | 1.00 | 1.00 | 1.00        | 1.00            |
+| **F1-score**  | 1.00 | 1.00 | 1.00        | 1.00            |
+| **Suporte**   | 4    | 4    | —           | 8               |
+
+✅ **Conclusão**: O modelo teve desempenho perfeito nos dados de teste — classificou corretamente todas as instâncias das duas classes. Isso pode indicar um modelo muito bem ajustado... ou talvez um conjunto de dados pequeno e simples.
 
                
 
-## 📷 **Resultados**
 
-## 📷 Prints das detecções “detect_30epocas”
 
-[https://drive.google.com/drive/folders/1GNTK54SlLoN4LtkTbNyjCNbWyLFeVw](https://drive.google.com/drive/folders/1GNTK54SlLoN4LtkTbNyjCNbWyLFeVwhP?usp=drive_link)
+# 📈 1.2 - Gráfico de Treinamento: Perda e Acurácia
 
-# 
+O gráfico mostra a evolução da **perda (loss)** e da **acurácia (accuracy)** ao longo de 50 épocas de treinamento.
 
-## 📷  **Avaliação dos modelos “detect_30epocas”**
 
- 
 
-## 📊 **Análise Técnica dos Gráficos de Treinamento e Validação** **– YOLOv5 -  detect_30epocas”**
+<img src = "TREINAMENTO_1.png">
 
-Os gráficos apresentados representam o comportamento do
-modelo YOLOv5 ao longo das épocas de treinamento, com foco nas perdas (losses)
-e nas métricas de desempenho. A presença das curvas "results" e
-"smooth" permite observar tanto os valores reais quanto a tendência
-geral de cada métrica.
 
-**---**
 
-## 📉 **Perdas de Treinamento (`train/box_loss`, `train/obj_loss`, `train/cls_loss`) - “detect_30epocas”**
+- **Linhas vermelha e azul**: perda de treinamento e validação, respectivamente.
 
-As perdas de treinamento mostram uma **tendência decrescente
-clara**, especialmente nas primeiras épocas, o que indica que o modelo está
-aprendendo a ajustar suas predições. A perda de caixa (`box_loss`) caiu
-rapidamente e estabilizou, sugerindo que o modelo está localizando bem os
-objetos. As perdas de objeto (`obj_loss`) e de classe (`cls_loss`) também
-diminuíram de forma consistente, o que é um sinal positivo de aprendizado.
+- **Linhas cinza e azul claro**: acurácia de treinamento e validação.
 
-**---**
+🔍 **Observações**:
 
-## 📉 **Perdas de Validação (`val/box_loss`, `val/obj_loss`,`val/cls_loss`) - “detect_30epocas”
+- A perda cai rapidamente nas primeiras épocas e se estabiliza em valores baixos.
 
-As perdas de validação acompanharam a tendência das perdas
-de treinamento, com valores semelhantes e estáveis. Isso indica que o modelo
-está **generalizando bem** para dados que ele nunca viu. A ausência de aumento
-nas perdas de validação nas últimas épocas sugere que **não houve
-overfitting**.
+- A acurácia sobe rapidamente e permanece alta (próxima de 1.0) tanto no treino quanto na validação.
 
-**---**
+- Não há sinais visíveis de **overfitting** (superajuste), já que treino e validação se comportam de forma semelhante.
+  
+  ## 
 
-## 🎯 **Métricas de Precisão e Revocação (`metrics/precision`,**
-
-## `metrics/recall`) - “detect_30epocas”
-
-A **precisão** aumentou ao longo das épocas e se estabilizou
-em valores elevados, próximos de 0.9, indicando que o modelo está fazendo
-predições corretas com baixa taxa de falsos positivos. A **revocação** atingiu
-valores próximos de 1.0, o que significa que o modelo está detectando
-praticamente todos os objetos presentes nas imagens.
-
-**---** 
-
-## 📈 **Precisão Média (`metrics/mAP_0.5` e**
-
-## `metrics/mAP_0.5:0.95`) - “detect_30epocas”
-
-A métrica `mAP@0.5` ultrapassou 0.98, o que representa um
-desempenho excelente em termos de detecção com IoU ≥ 0.5. Já o `mAP@0.5:0.95`,
-que é mais exigente, atingiu valores superiores a 0.54, indicando que o modelo
-também está performando bem em múltiplos níveis de sobreposição entre predições
-e objetos reais.
-
-**---**
-
-## 📈 Interpretação Geral - “detect_30epocas”
-
--              O modelo apresentou **aprendizado consistente**,
-com perdas decrescentes e métricas de desempenho crescentes.
-
--              A **estabilização das curvas** nas últimas épocas
-sugere que o modelo atingiu um bom ponto de convergência.
-
--              A **ausência de divergência entre treino e
-validação** reforça a qualidade do dataset e a eficácia do treinamento.
-
--              As métricas finais indicam que o modelo está
-**pronto para ser testado em cenários reais**, com alta confiabilidade na
-detecção de objetos.
-
-**---**
-
-Esses resultados demonstram que o treinamento foi
-bem-sucedido e que o modelo YOLOv5 está apto para aplicações práticas em visão
-computacional, como segurança patrimonial, monitoramento animal ou controle de
-acesso em ambientes rurais e urbanos.
-
-## 📷 **Prints das detecções “detect_60epocas”**
-
- [https://drive.google.com/drive/folders/1lrif1HiMNxfmbBn5fnEBiN4T8EeIdD](https://drive.google.com/drive/folders/1lrif1HiMNxfmbBn5fnEBiN4T8EeIdDIK?usp=drive_link)
-
-# 
-
-## 📷  **Avaliação dos modelos “detect_60epocas”**
-
- 
-
-## 📊 **Análise Técnica dos Gráficos de Treinamento e Validação **– YOLOv5 - “detect_60epocas”**
-
-Os gráficos gerados durante o treinamento do modelo YOLOv5
-fornecem insights valiosos sobre o comportamento do modelo ao longo das épocas.
-A seguir, apresentamos uma análise detalhada das principais métricas
-observadas:
-
-**---**
-
-## 📉 **Perdas de Treinamento (`train/box_loss`, `train/obj_loss`, `train/cls_loss`) - “detect_60epocas”
-
-As curvas de perda de treinamento mostram uma **tendência
-decrescente consistente**, indicando que o modelo está aprendendo a representar
-melhor os objetos ao longo das épocas. A perda de caixa (`box_loss`) teve uma
-queda significativa nas primeiras épocas e estabilizou em valores baixos, o que
-é desejável. As perdas de objeto (`obj_loss`) e de classe (`cls_loss`) também
-diminuíram progressivamente, sugerindo que o modelo está se ajustando bem às
-tarefas de detecção e classificação.
-
-**---**
-
-## 📉 **Perdas de Validação (`val/box_loss`, `val/obj_loss`,**
-
-## `val/cls_loss`) - “detect_60epocas”
-
-As perdas de validação seguiram uma tendência semelhante às
-de treinamento, com **valores próximos e estáveis**, o que indica que o modelo
-está generalizando bem para dados que ele nunca viu. Não há sinais evidentes de
-overfitting, já que as perdas não aumentaram nas últimas épocas.
-
-**---**
-
-## 🎯 **Métricas de Precisão e Revocação (`metrics/precision`,**
-
-## metrics/recall`) - “detect_60epocas”
-
-A **precisão** apresentou crescimento ao longo das épocas,
-estabilizando em valores próximos de **0.9**, o que indica que o modelo está
-fazendo predições corretas com baixa taxa de falsos positivos. A **revocação**
-atingiu valores próximos de **1.0**, mostrando que o modelo está conseguindo
-detectar praticamente todos os objetos presentes nas imagens.
-
-**---** 
-
-## 📈 Precisão Média (`metrics/mAP_0.5` e  `metrics/mAP_0.5:0.95`)
-
-A métrica `mAP@0.5` ultrapassou **0.98**, o que representa
-um desempenho excelente em termos de detecção com IoU ≥ 0.5. Já o
-`mAP@0.5:0.95`, que é uma métrica mais exigente, atingiu valores superiores a
-**0.54**, indicando que o modelo também está performando bem em múltiplos
-níveis de sobreposição entre predições e objetos reais.
-
-**---**
-
-## 📈 Interpretação Geral “detect_60epocas”
-
--              O modelo apresentou **aprendizado consistente**,
-com perdas decrescentes e métricas de desempenho crescentes.
-
--              A **estabilização das curvas** nas últimas
-épocas sugere que o modelo atingiu um bom ponto de convergência.
-
--              A **ausência de divergência entre treino e
-validação** reforça a qualidade do dataset e a eficácia do treinamento.
-
--              As métricas finais indicam que o modelo está
-**pronto para ser testado em cenários reais**, com alta confiabilidade na
-detecção de objetos.
-
-**---**
-
-Esses resultados demonstram que o treinamento foi
-bem-sucedido e que o modelo YOLOv5 está apto para aplicações práticas em visão
-computacional, como segurança patrimonial, monitoramento animal ou controle de
-acesso em ambientes rurais e urbanos.
-
-## 🔄 **Comparação entre Treinamentos com 30 e 60 Épocas – YOLOv5**
-
-Realizamos dois treinamentos distintos com o modelo YOLOv5,
-utilizando o mesmo dataset, mas variando a quantidade de épocas: 30 e 60. A
-seguir, apresentamos uma análise comparativa das principais métricas de
-desempenho.
-
-## 📈 **Métricas de Avaliação**
-
-| **Métrica**       | **30 Épocas** | **60 Épocas** | **Diferença** |
-| ----------------- | ------------- | ------------- | ------------- |
-| **Precisão (P)**  | 0.87          | 0.93          | +0.06         |
-| **Revocação (R)** | 1.00          | 1.00          | =             |
-| **mAP@0.5**       | 0.982         | 0.995         | +0.013        |
-| **mAP@0.5:0.95**  | 0.544         | 0.612         | +0.068        |
-| **Perda total**   | 0.0412        | 0.0362        | –0.005        |
-
-  
-
-## 📈 Interpretação
-
--  O modelo treinado com **60 épocas** apresentou **melhor desempenho em todas as
-métricas**, especialmente em mAP@0.5:0.95, que é mais exigente.
-
- 
-
--  A **perda total foi menor**, indicando que o modelo aprendeu melhor a representar
-os objetos.
-
--  Ambos os modelos atingiram **revocação máxima (1.00)**, mas o de 60 épocas teve
-**maior precisão**, o que significa menos falsos positivos.
-
- 
-
- 
-
--  A evolução entre os dois treinamentos mostra que o modelo continua aprendendo
-após 30 épocas, sem sinais de overfitting.
-
-Treinamentos mais longos resultam em modelos mais precisos e
-robustos. Para aplicações reais em visão computacional, recomenda-se utilizar
-pelo menos **60 épocas** para maximizar o desempenho.
-
-      
-
-## 📈 **Conclusões**
-
--  Modelo com 60 épocas teve melhor desempenho
-
--  Sistema viável para aplicações reais
-
--  O modelo com 60 épocas apresentou melhor
-desempenho geral.
-
--  O sistema é viável para aplicações reais da FarmTech Solutions, como segurança
-patrimonial e controle de acessos.
-
--  A limitação principal foi o tamanho reduzido do dataset, que pode ser expandido
-em versões futuras.
-
-               
+## 📈 1.3 - Conclusões
 
 <style>
 </style>
 
-## 🔍 Entrega 2 – Comparação de Abordagens
+O modelo parece estar funcionando **extremamente bem**, mas vale considerar:
 
-## [entrega2_comparativo_fase6.ipynb - Colab]
+- O conjunto de dados é pequeno (apenas 8 amostras no teste), o que pode inflar artificialmente os resultados.
 
-https://colab.research.google.com/drive/1oIQeX-O1x54jBryk0rwJXX4GrAnyRiUH)
+- A performance perfeita pode indicar que o modelo está **memorizando** os dados em vez de **generalizar**.
 
-<style>
-</style>
 
-## 🔄 Abordagens implementadas:
 
-- YOLOv5 adaptável (Entrega 1)
 
-- YOLOv3 tradicional via XXXXXX
 
-- CNN do zero com Keras
+# 📊 2 - Fine Tuning ("Ajuste Fino")
 
-<style>
-</style>
+Fine Tuning (ou “Ajuste Fino”) é uma técnica avançada dentro do Transfer Learning que permite refinar um modelo pré-treinado para uma tarefa específica. Em vez de treinar uma rede do zero, você aproveita o conhecimento aprendido em um grande conjunto de dados (como o ImageNet) e ajusta parte da rede para se adaptar ao seu problema.
 
-## 📊 Comparativo de Métricas
+🧠 Por que usar Fine Tuning:
 
-<style> </style>
+- Aproveita pesos já treinados: acelera o aprendizado e melhora a performance.
 
-| Critério                       | YOLOv5<br> Adaptável | YOLOv3<br> Tradicional | CNN<br> do Zero |
-| ------------------------------ | -------------------- | ---------------------- | --------------- |
-| Precisão                       | 0.93                 | 0.78                   | 0.91            |
-| Revocação                      | 1.00                 | 0.85                   | 0.88            |
-| mAP@0.5                        | 0.995                | 0.82                   | -----------     |
-| Tempo<br> de treinamento (min) | 45                   | 0                      | 12              |
-| Tempo<br> de inferência (s)    | 0.5                  | 0.2                    | 0.4             |
-| Tipo<br> de saída              | Detecção             | Detecção               | Classificação   |
+- Adapta o modelo ao seu domínio: útil quando seu dataset é diferente do original.
 
-## 📈 Conclusões
+- Evita overfitting: ao congelar partes da rede, você reduz o risco de superajuste.
 
-<style>
-</style>
 
-- YOLOv5 é ideal para aplicações com necessidade de localização precisa.
 
-- YOLOv3 é útil para testes rápidos e protótipos.
+# 📊 2.1 - Relatório de Classificação
 
-- CNN é eficaz para classificação simples com baixo custo computacional.
+Este relatório mostra o desempenho do modelo em duas classes: **"bike"** e **"cat"**. Os resultados são impressionantes:
 
-## 👥 **Autores**
+| Classe | Precisão | Revocação | F1-Score | Suporte |
+| ------ | -------- | --------- | -------- | ------- |
+| bike   | 1.00     | 1.00      | 1.00     | 4       |
+| cat    | 1.00     | 1.00      | 1.00     | 2       |
+
+- **Acurácia total**: 100% (6 amostras)
+
+- **Média macro e ponderada**: Todas as métricas em 1.00
+
+### 🔍 **Interpretação**:
+
+- O modelo classificou perfeitamente todas as amostras de teste.
+
+- Isso pode indicar um excelente desempenho... ou um conjunto de dados muito pequeno e/ou fácil, o que pode mascarar problemas como overfitting.
+
+
+
+# 📈 2.2 - Gráfico de Treinamento: "Perda e Acurácia"
+
+<img src = "TREINAMENTO_2.png">
+
+O gráfico mostra a evolução da **perda (loss)** e da **acurácia (accuracy)** ao longo das épocas:
+
+- **Curvas exibidas**:
+  
+  - `train_loss` e `val_loss`: ambas caem rapidamente, indicando que o modelo aprendeu bem desde o início.
+  
+  - `train_acc` e `val_acc`: sobem rapidamente e se estabilizam perto de 1.0.
+
+🧠 **Análise**:
+
+- O comportamento sugere que o modelo convergiu rapidamente.
+
+- A validação acompanha bem o treinamento, o que é um bom sinal.
+
+- Mas atenção: com apenas 6 amostras, é difícil avaliar generalização. Pode ser necessário testar com um conjunto maior e mais variado.
+
+
+
+# 👥 **Autores**
 
 ## Grupo 7 — FIAP
 
-•       Fátima Vilela Candal
+## •       Fátima Vilela Candal
 
-•       Gabriel Viel dos Santos Delfino
+## •       Gabriel Viel dos Santos Delfino
 
-•       Guilherme Campos Hermanowski
+## •       Guilherme Campos Hermanowski
 
-•       Jonathan Willian Luft
+## •       Jonathan Willian Luft
 
-•       Matheus Alboredo Soares
+## •       Matheus Alboredo Soares
