@@ -3,11 +3,7 @@
 
 ## Projeto FarmTech Solutions – Visão Computacional  Usando Transfer Learning e Fine Tuning
 
-
-
 # 📁 **Sobre o Projeto**
-
-
 
 ## 📌 Projeto FarmTech Solutions – Visão Computacional Usando Transfer Learning e Fine Tuning
 
@@ -56,7 +52,7 @@ https://github.com/rm563003/FIAP/tree/main/FarmTechVision_Grupo7
 
 
 
-
+<img src = "Projeto.png">
 
 
 
@@ -77,8 +73,6 @@ O conjunto de dados foi organizado no Google Drive e contém:
 -  4 para teste
 
 -  Rotuladas com [Make Sense IA] (https://www.makesense.ai/) e salvas no formato YOLO.
-
-
 
 ## 🔗 Acesse o dataset completo no Google Drive:
 
@@ -104,10 +98,6 @@ https://drive.google.com/drive/folders/1qkNb4RV7mHWI3fwiyvHKzPm7rb9KBSKN
 
           └── test/
 
-
-
-
-
 # 🚀 Ir Além (Usando Transfer Learning e Fine Tuning)
 
 ## 
@@ -116,17 +106,9 @@ https://drive.google.com/drive/folders/1qkNb4RV7mHWI3fwiyvHKzPm7rb9KBSKN
 
 (https://drive.google.com/drive/folders/17_g6vLQpcbuGpq_2dsOPohg36Cs1zSG3)
 
-
-
 ## [FIAP/FarmTechVision_Grupo7/notebook/ir_alem at ec8c5727e5e4b09cd09bbf626f4c78b0c898cd6a · rm563003/FIAP · GitHub]
 
 (https://github.com/rm563003/FIAP/tree/ec8c5727e5e4b09cd09bbf626f4c78b0c898cd6a/FarmTechVision_Grupo7/notebook/ir_alem)
-
-
-
-
-
-
 
 # 📊 1 - Transfer Learning ("Transferência de Aprendizado")
 
@@ -140,13 +122,7 @@ Transfer Learning (ou “Transferência de Aprendizado”) é uma técnica poder
 
 - Quando sua tarefa é semelhante à do modelo original (ex: imagens naturais)
 
-
-
-
-
 # 📊 1.1 - Reiniciar o gerador de testes e avaliar a rede após o ajuste fino apenas do cabeçote da rede
-
-
 
 ## 📊 Relatório de Classificação
 
@@ -163,17 +139,11 @@ Este relatório mostra os resultados de um modelo de classificação binária pa
 
                
 
-
-
 # 📈 1.2 - Gráfico de Treinamento: Perda e Acurácia
 
 O gráfico mostra a evolução da **perda (loss)** e da **acurácia (accuracy)** ao longo de 50 épocas de treinamento.
 
-
-
 <img src = "TREINAMENTO_1.png">
-
-
 
 - **Linhas vermelha e azul**: perda de treinamento e validação, respectivamente.
 
@@ -200,10 +170,6 @@ O modelo parece estar funcionando **extremamente bem**, mas vale considerar:
 
 - A performance perfeita pode indicar que o modelo está **memorizando** os dados em vez de **generalizar**.
 
-
-
-
-
 # 📊 2 - Fine Tuning ("Ajuste Fino")
 
 Fine Tuning (ou “Ajuste Fino”) é uma técnica avançada dentro do Transfer Learning que permite refinar um modelo pré-treinado para uma tarefa específica. Em vez de treinar uma rede do zero, você aproveita o conhecimento aprendido em um grande conjunto de dados (como o ImageNet) e ajusta parte da rede para se adaptar ao seu problema.
@@ -215,8 +181,6 @@ Fine Tuning (ou “Ajuste Fino”) é uma técnica avançada dentro do Transfer 
 - Adapta o modelo ao seu domínio: útil quando seu dataset é diferente do original.
 
 - Evita overfitting: ao congelar partes da rede, você reduz o risco de superajuste.
-
-
 
 # 📊 2.1 - Relatório de Classificação
 
@@ -231,13 +195,11 @@ Este relatório mostra o desempenho do modelo em duas classes: **"bike"** e **"c
 
 - **Média macro e ponderada**: Todas as métricas em 1.00
 
-### 🔍 **Interpretação**:
+### 🔍 **Interpretação**:
 
 - O modelo classificou perfeitamente todas as amostras de teste.
 
 - Isso pode indicar um excelente desempenho... ou um conjunto de dados muito pequeno e/ou fácil, o que pode mascarar problemas como overfitting.
-
-
 
 # 📈 2.2 - Gráfico de Treinamento: "Perda e Acurácia"
 
@@ -258,8 +220,6 @@ O gráfico mostra a evolução da **perda (loss)** e da **acurácia (accuracy)**
 - A validação acompanha bem o treinamento, o que é um bom sinal.
 
 - Mas atenção: com apenas 6 amostras, é difícil avaliar generalização. Pode ser necessário testar com um conjunto maior e mais variado.
-
-
 
 # 👥 **Autores**
 
