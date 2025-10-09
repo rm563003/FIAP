@@ -1,13 +1,13 @@
 <style>
 </style>
 
-## Projeto FarmTech Solutions – Visão Computacional com YOLOv5, CNN do zero, Ir Além (Usando Transfer Learning e Fine Tuning)
+# Projeto FarmTech Solutions – Visão Computacional com YOLOv5, CNN do zero
 
 
 
 # 📁 **Sobre o Projeto**
 
-## 📌 Projeto FarmTech Solutions – Visão Computacional com YOLOv5, CNN do zero, Ir Além (Usando Transfer Learning e Fine Tuning)
+## 📌 Projeto FarmTech Solutions – Visão Computacional com YOLOv5, CNN do zero
 
 Este projeto demonstra as soluções desenvolvidas para as Entregas 1 e 2 do projeto da disciplina PBL Fase 6 da FIAP, aplicando técnicas de Visão Computacional com YOLOv5, YOLOv3 e CNN do zero, com foco em dois objetos distintos: **cat** e **bike**. O objetivo é treinar um modelo capaz de identificar esses objetos com alta acurácia, validando seu uso em cenários reais da FarmTech Solutions. 
 
@@ -74,8 +74,6 @@ O conjunto de dados foi organizado no Google Drive e contém:
 
 -  Rotuladas com [Make Sense IA] (https://www.makesense.ai/) e salvas no formato YOLO.
 
-
-
 ## 🔗 Acesse o dataset completo no Google Drive:
 
 https://drive.google.com/drive/folders/1qkNb4RV7mHWI3fwiyvHKzPm7rb9KBSKN
@@ -99,8 +97,6 @@ https://drive.google.com/drive/folders/1qkNb4RV7mHWI3fwiyvHKzPm7rb9KBSKN
           ├── val/
 
           └── test/
-
-
 
 ## 🚀 Entrega 1 – YOLOv5 Customizado
 
@@ -145,10 +141,6 @@ As comparações de desempenho, acurácia e tempo de execução estão documenta
 ## [YOLOv5_Graficos - Google Drive]
 
 https://drive.google.com/drive/folders/1ZxtzbTUtuOcnu7liDHek1MWhoi8lwZDb
-
-
-
-
 
 ## 📊 **Análise Técnica dos Gráficos de Treinamento e Validação** **– YOLOv5 -  detect_30epocas”**
 
@@ -213,8 +205,6 @@ A métrica `mAP@0.5` ultrapassou 0.98, o que representa um desempenho excelente 
 
 Esses resultados demonstram que o treinamento foi bem-sucedido e que o modelo YOLOv5 está apto para aplicações práticas em visão computacional, como segurança patrimonial, monitoramento animal ou controle de acesso em ambientes rurais e urbanos.
 
-
-
 ## 📷 **Prints das detecções “detect_60epocas”**
 
  [https://drive.google.com/drive/folders/1lrif1HiMNxfmbBn5fnEBiN4T8EeIdD](https://drive.google.com/drive/folders/1lrif1HiMNxfmbBn5fnEBiN4T8EeIdDIK?usp=drive_link)
@@ -228,10 +218,6 @@ Esses resultados demonstram que o treinamento foi bem-sucedido e que o modelo YO
 ## [YOLOv5_Graficos - Google Drive]
 
 https://drive.google.com/drive/folders/1ZxtzbTUtuOcnu7liDHek1MWhoi8lwZDb
-
-
-
-
 
 ## 📊 **Análise Técnica dos Gráficos de Treinamento e Validação **– YOLOv5 - “detect_60epocas”**
 
@@ -292,8 +278,6 @@ Esses resultados demonstram que o treinamento foi bem-sucedido e que o modelo YO
 
 Realizamos dois treinamentos distintos com o modelo YOLOv5, utilizando o mesmo dataset, mas variando a quantidade de épocas: 30 e 60. A seguir, apresentamos uma análise comparativa das principais métricas de desempenho.
 
-
-
 # 📈 **Métricas de Avaliação**
 
 | **Métrica**       | **30 Épocas** | **60 Épocas** | **Diferença** |
@@ -310,23 +294,11 @@ Realizamos dois treinamentos distintos com o modelo YOLOv5, utilizando o mesmo d
 
 https://drive.google.com/drive/folders/1ZxtzbTUtuOcnu7liDHek1MWhoi8lwZDb
 
-
-
-
-
 # 📈 Resultados Visuais
-
-
 
 ## Segue estão os prints das imagens de teste processadas pelo modelo, com as detecções realizadas.
 
 <img src = "30-60_Epocas.png">
-
-
-
-
-
-
 
 # 📈 Interpretação
 
