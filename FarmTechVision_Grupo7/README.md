@@ -50,15 +50,7 @@ Os arquivos estão no GITHUB:
 
 https://github.com/rm563003/FIAP/tree/main/FarmTechVision_Grupo7
 
-
-
 <img src = "Projeto.png">
-
-
-
-
-
-
 
 ## 🗂**️** DATASET GOOGLE DRIVE
 
@@ -110,6 +102,14 @@ https://colab.research.google.com/drive/17r-pJUDiiel7gbe-Dt6pAYz_TpRnsdoh
 
 ## 
 
+## [GitHub]
+
+[FIAP/FarmTechVision_Grupo7/notebook/entrega1 at main · rm563003/FIAP · GitHub](https://github.com/rm563003/FIAP/tree/main/FarmTechVision_Grupo7/notebook/entrega1)
+
+## 
+
+
+
 ## 🚀 Entrega 2 – Comparação de Abordagens
 
 ## [entrega2_comparativo_fase6.ipynb - Colab]
@@ -118,13 +118,37 @@ https://colab.research.google.com/drive/1oIQeX-O1x54jBryk0rwJXX4GrAnyRiUH)xxxxx
 
                
 
+
+
+## [GitHub]
+
+[FIAP/FarmTechVision_Grupo7/notebook/entrega2 at main · rm563003/FIAP · GitHub](https://github.com/rm563003/FIAP/tree/main/FarmTechVision_Grupo7/notebook/entrega2)
+
+
+
+
+
+
+
 ## 🚀 IR ALÉM -  **Usando Transfer Learning e Fine Tuning**
 
 ## [deep_learning.ipynb - Colab]
 
 https://colab.research.google.com/drive/13aGeT-bcPPcLcT97bx7PwZoolNfrSfIT
 
-               
+           
+
+
+
+## [GitHub]
+
+[FIAP/FarmTechVision_Grupo7/notebook/ir_alem at main · rm563003/FIAP · GitHub](https://github.com/rm563003/FIAP/tree/main/FarmTechVision_Grupo7/notebook/ir_alem)
+
+
+
+
+
+    
 
 ## 👥 **Autores**
 
