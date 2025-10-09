@@ -3,8 +3,6 @@
 
 ## Projeto FarmTech Solutions – Visão Computacional com YOLOv5, CNN do zero, Ir Além (Usando Transfer Learning e Fine Tuning)
 
-
-
 ## ** 📁 **Sobre o Projeto**
 
 ## 📌 Projeto FarmTech Solutions – Visão Computacional com YOLOv5,  CNN do zero, Ir Além (Usando Transfer Learning e Fine Tuning)
@@ -52,34 +50,11 @@ Os arquivos estão no GITHUB:
 
 https://github.com/rm563003/FIAP/tree/main/FarmTechVision_Grupo7
 
-📂 FIAP/ 
-├── 📁 FarmTechVision_Grupo7/
-
-│ ├── 📁 config/
-│           └── data.yaml
-
-│ ├── 📁 dataset/
-│ ├── 📁 imagens/
-
-│           └── 📁detect_30epocas
-│           └── 📁detect_60epocas
-
-│           └── 📁YOLOv5_Graficos
-
-│ └── 📁notebook 
-│            └── 📁entrega1
-
-│                      └── FatimaCandal_rm563003_pbl_fase6.ipynb
-
-│                      └── 📄 README.pdf
-
-│            └── 📁entrega2
-
-│                      └── entrega2_comparativo_fase6.ipynb
 
 
-│ └── 📄 README.pdf
-│   └── 📄 README.pdf
+<img src = "Projeto.png">
+
+
 
 
 
@@ -127,10 +102,6 @@ https://drive.google.com/drive/folders/1qkNb4RV7mHWI3fwiyvHKzPm7rb9KBSKN
 
           └── test/
 
-
-
-
-
 ## 🚀 Entrega 1 – YOLOv5 Customizado
 
 ## [FatimaCandal_rm563003_pbl_fase6.ipynb - Colab]
@@ -139,15 +110,11 @@ https://colab.research.google.com/drive/17r-pJUDiiel7gbe-Dt6pAYz_TpRnsdoh
 
 ## 
 
-
-
 ## 🚀 Entrega 2 – Comparação de Abordagens
 
 ## [entrega2_comparativo_fase6.ipynb - Colab]
 
 https://colab.research.google.com/drive/1oIQeX-O1x54jBryk0rwJXX4GrAnyRiUH)xxxxx
-
-
 
                
 
@@ -156,10 +123,6 @@ https://colab.research.google.com/drive/1oIQeX-O1x54jBryk0rwJXX4GrAnyRiUH)xxxxx
 ## [deep_learning.ipynb - Colab]
 
 https://colab.research.google.com/drive/13aGeT-bcPPcLcT97bx7PwZoolNfrSfIT
-
-
-
-
 
                
 
