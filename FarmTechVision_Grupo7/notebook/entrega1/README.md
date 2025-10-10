@@ -25,10 +25,14 @@ aplicabilidade.
 
 # 📹 **Demonstração em Vídeo**
 
-Assista ao vídeo com a explicação e funcionamento do
-[FarmTechVision - YouTube]
+Assista ao vídeo com a explicação e funcionamento do projeto:
 
-https://www.youtube.com/watch?v=S_f0_Zrh1Dc
+https://www.youtube.com/watch?v=hrjdB9EuElI
+
+[FarmTechVision Grupo 18 - YouTube]
+
+(https://youtu.be/hrjdB9EuElI)
+
 
             
 
