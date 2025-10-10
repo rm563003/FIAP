@@ -7,7 +7,7 @@
 
 ## 📌 Projeto FarmTech Solutions – Visão Computacional Usando Transfer Learning e Fine Tuning
 
-Este projeto demonstra as soluções desenvolvidas para as Entrega Ir Além (Usando Transfer Learning e Fine Tuning) da disciplina PBL Fase 6 da FIAP, aplicando técnicas de Visão Computacional com Ir Além (Usando Transfer Learning e Fine Tuning), com foco em dois objetos distintos: **cat** e **bike**. O objetivo é treinar um modelo capaz de identificar esses objetos com alta acurácia, validando seu uso em cenários reais da FarmTech Solutions. 
+Este projeto demonstra as soluções desenvolvidas para as Entrega Ir Além (Usando Transfer Learning e Fine Tuning) da disciplina PBL Fase 6 da FIAP, aplicando técnicas de Visão Computacional com  Transfer Learning e Fine Tuning, com foco em dois objetos distintos: **cat** e **bike**. O objetivo é treinar um modelo capaz de identificar esses objetos com alta acurácia, validando seu uso em cenários reais da FarmTech Solutions. 
 
 <style>
 </style>
@@ -18,14 +18,15 @@ A FarmTech Solutions está expandindo seus serviços de inteligência artificial
 para além do agronegócio, atuando agora nas áreas de saúde animal, segurança
 patrimonial, controle de acesso e análise de documentos. Como parte do time de
 desenvolvedores, nosso objetivo foi demonstrar na prática o funcionamento de um
-sistema de visão computacional utilizando YOLO, com foco em acurácia e
-aplicabilidade.
+sistema de visão computacional utilizando Transfer Learning e Fine Tuning, com foco em acurácia e aplicabilidade.
 
            
 
 # 📹 **Demonstração em Vídeo**
 
-Assista ao vídeo com a explicação e funcionamento do projeto: [FarmTechVision Grupo7 - YouTube]
+Assista ao vídeo com a explicação e funcionamento do projeto: 
+
+[FarmTechVision - YouTube]
 
 https://www.youtube.com/watch?v=S_f0_Zrh1Dc
 
@@ -33,7 +34,7 @@ https://www.youtube.com/watch?v=S_f0_Zrh1Dc
 
 ## 📌 **Objetivo**
 
-Demonstrar o uso de YOLOv5, YOLOv3 e CNN do zero para detecção de objetos em imagens, com aplicação prática para clientes da FarmTech Solutions.
+Demonstrar o uso de Transfer Learning e Fine Tuning para detecção de objetos em imagens, com aplicação prática para clientes da FarmTech Solutions.
 
 [FarmTechVision_Grupo7 - Google Drive]
 
@@ -220,7 +221,7 @@ O gráfico mostra a evolução da **perda (loss)** e da **acurácia (accuracy)**
 
 # 👥 **Autores**
 
-## Grupo 7 — FIAP
+## Grupo 18 — FIAP
 
 ## •       Fátima Vilela Candal
 
