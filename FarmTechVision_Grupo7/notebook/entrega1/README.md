@@ -1,13 +1,13 @@
 <style>
 </style>
 
-# Projeto FarmTech Solutions – Visão Computacional com YOLOv5, CNN do zero
+# Projeto FarmTech Solutions – Visão Computacional com YOLOv5
 
 # 📁 **Sobre o Projeto**
 
-## 📌 Projeto FarmTech Solutions – Visão Computacional com YOLOv5, CNN do zero
+## 📌 Projeto FarmTech Solutions – Visão Computacional com YOLOv5
 
-Este projeto demonstra as soluções desenvolvidas para as Entregas 1 e 2 do projeto da disciplina PBL Fase 6 da FIAP, aplicando técnicas de Visão Computacional com YOLOv5, YOLOv3 e CNN do zero, com foco em dois objetos distintos: **cat** e **bike**. O objetivo é treinar um modelo capaz de identificar esses objetos com alta acurácia, validando seu uso em cenários reais da FarmTech Solutions. 
+Este projeto demonstra as soluções desenvolvidas para as Entregas 1 do projeto da disciplina PBL Fase 6 da FIAP, aplicando técnicas de Visão Computacional com YOLOv5,  com foco em dois objetos distintos: **cat** e **bike**. O objetivo é treinar um modelo capaz de identificar esses objetos com alta acurácia, validando seu uso em cenários reais da FarmTech Solutions. 
 
 <style>
 </style>
@@ -26,7 +26,7 @@ aplicabilidade.
 # 📹 **Demonstração em Vídeo**
 
 Assista ao vídeo com a explicação e funcionamento do
-[FarmTechVision Grupo7 - YouTube]
+[FarmTechVision - YouTube]
 
 https://www.youtube.com/watch?v=S_f0_Zrh1Dc
 
@@ -34,13 +34,13 @@ https://www.youtube.com/watch?v=S_f0_Zrh1Dc
 
 ## 📌 **Objetivo**
 
-Demonstrar o uso de YOLOv5, YOLOv3 e CNN do zero para detecção de objetos em imagens, com aplicação prática para clientes da FarmTech Solutions.
+Demonstrar o uso de YOLOv5 para detecção de objetos em imagens, com aplicação prática para clientes da FarmTech Solutions.
 
-[FarmTechVision_Grupo7 - Google Drive]
+[FarmTechVision - Google Drive]
 
 https://drive.google.com/drive/folders/1e6rJrdMxQRRpNJW-nlHGcV0AqA_5cumV
 
-[FIAP/FarmTechVision_Grupo7 at main · rm563003/FIAP · GitHub]
+[FIAP/FarmTechVision · rm563003/FIAP · GitHub]
 
 https://github.com/rm563003/FIAP/tree/main/FarmTechVision_Grupo7
 
@@ -294,6 +294,8 @@ Realizamos dois treinamentos distintos com o modelo YOLOv5, utilizando o mesmo d
 
 https://drive.google.com/drive/folders/1ZxtzbTUtuOcnu7liDHek1MWhoi8lwZDb
 
+# 
+
 # 📈 Resultados Visuais
 
 ## Segue estão os prints das imagens de teste processadas pelo modelo, com as detecções realizadas.
@@ -339,7 +341,7 @@ https://drive.google.com/drive/folders/1ZxtzbTUtuOcnu7liDHek1MWhoi8lwZDb
 
 # 👥 **Autores**
 
-## Grupo 7 — FIAP
+## Grupo 18 — FIAP
 
 ### •       Fátima Vilela Candal
 
