@@ -1,13 +1,13 @@
 <style>
 </style>
 
-## Projeto FarmTech Solutions – Visão Computacional com YOLOv5 e CNN do zero
+## Projeto FarmTech Solutions – Visão Computacional com YOLOv5 adaptável, YOLOv5 tradicional, CNN do zero
 
 ## 📁 **Sobre o Projeto**
 
-## 📌 Projeto FarmTech Solutions – Visão Computacional com YOLOv5v e CNN do zero
+## 📌 Projeto FarmTech Solutions – Visão Computacional com YOLOv5 adaptável, YOLOv5 tradicional, CNN do zero
 
-Este projeto demonstra as soluções desenvolvidas para a Entregas 1 e 2 do projeto da disciplina PBL Fase 6 da FIAP, aplicando técnicas de Visão Computacional com YOLOv5 e CNN do zero, com foco em dois objetos distintos: **cat** e **bike**. O objetivo é treinar um modelo capaz de identificar esses objetos com alta acurácia, validando seu uso em cenários reais da FarmTech Solutions. 
+Este projeto demonstra as soluções desenvolvidas para a Entregas 2 do projeto da disciplina PBL Fase 6 da FIAP, aplicando técnicas de Visão Computacional com YOLOv5 adaptável, YOLOv5 tradicional, CNN do zero, com foco em dois objetos distintos: **cat** e **bike**. O objetivo é treinar um modelo capaz de identificar esses objetos com alta acurácia, validando seu uso em cenários reais da FarmTech Solutions. 
 
 <style>
 </style>
@@ -18,8 +18,7 @@ A FarmTech Solutions está expandindo seus serviços de inteligência artificial
 para além do agronegócio, atuando agora nas áreas de saúde animal, segurança
 patrimonial, controle de acesso e análise de documentos. Como parte do time de
 desenvolvedores, nosso objetivo foi demonstrar na prática o funcionamento de um
-sistema de visão computacional utilizando YOLO, com foco em acurácia e
-aplicabilidade.
+sistema de visão computacional utilizando YOLOv5 adaptável, YOLOv5 tradicional, CNN do zero, com foco em acurácia e aplicabilidade.
 
            
 
@@ -34,7 +33,7 @@ https://www.youtube.com/watch?v=S_f0_Zrh1Dc
 
 ## 📌 **Objetivo**
 
-Demonstrar o uso de YOLOv5 e CNN do zero para detecção de objetos em imagens, com aplicação prática para clientes da FarmTech Solutions.
+Demonstrar o uso de YOLOv5 adaptável, YOLOv5 tradicional, CNN do zero para detecção de objetos em imagens, com aplicação prática para clientes da FarmTech Solutions.
 
 [FarmTechVision_Grupo7 - Google Drive]
 
@@ -76,7 +75,9 @@ O conjunto de dados foi organizado no Google Drive e contém:
 
 -  Rotuladas com [Make Sense IA] (https://www.makesense.ai/) e salvas no formato YOLO.
 
-🔗 Acesse o dataset completo no Google Drive:  
+
+
+## 🔗 Acesse o dataset completo no Google Drive:
 
 https://drive.google.com/drive/folders/1qkNb4RV7mHWI3fwiyvHKzPm7rb9KBSKN
 
@@ -717,7 +718,7 @@ O gráfico ***“Acurácia por Época”** mostra a evolução do desempenho de 
 
 ## ✅ YOLOv5 Adaptável é idela para aplicações com a necessidade de localização precisa
 
-- *YOLOv5* (You Only Look Once,  versão 5) é um modelo de detecção de objetos que realiza **localização e classificação simultâneas** em tempo real.
+- *YOLOv5* é um modelo de detecção de objetos que realiza **localização e classificação simultâneas** em tempo real.
 
 - A versão adaptável refere-se à capacidade de **treinar  o modelo com dados personalizados**, ajustar hiperparâmetros  e aplicar técnicas como *transfer
    learning*, *model  pruning* e *quantização*,  o que melhora a **precisão
@@ -729,7 +730,7 @@ O gráfico ***“Acurácia por Época”** mostra a evolução do desempenho de 
 
 ### ✅ YOLOv5 Padrão é útil para testes rápidos e protótipos
 
-- O modelo  padrão (como o *YOLOv5s*,  versão pequena) é leve e rápido, com **baixa latência e menor exigência computacional**,  o que o torna excelente para **prototipagem  e testes iniciais. 
+- O modelo  padrão é leve e rápido, com **baixa latência e menor exigência computacional**,  o que o torna excelente para **prototipagem  e testes iniciais. 
 - Ele  permite validar ideias rapidamente antes de investir em modelos maiores e
    mais precisos como *YOLOv5m*,  *YOLOv5l* ou *YOLOv5x*.
 
@@ -740,9 +741,11 @@ O gráfico ***“Acurácia por Época”** mostra a evolução do desempenho de 
 - Para  tarefas simples, como **classificação  binária ou multiclasse com poucas categorias**, uma CNN  básica pode ser treinada rapidamente e **executada em dispositivos com recursos limitados**,  como smartphones ou  icrocontroladores.
 - Exemplos  incluem **reconhecimento  de dígitos manuscritos (MNIST)** ou **classificação de frutas em imagens**.
 
+# 
+
 # 👥 **Autores**
 
-# Grupo 7 — FIAP
+# Grupo 18 — FIAP
 
 ## •       Fátima Vilela Candal
 
