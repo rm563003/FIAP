@@ -24,10 +24,13 @@ sistema de visão computacional utilizando YOLOv5 adaptável, YOLOv5 tradicional
 
 # 📹 **Demonstração em Vídeo**
 
-Assista ao vídeo com a explicação e funcionamento do
-[FarmTechVision Grupo7 - YouTube]
+Assista ao vídeo com a explicação e funcionamento do projeto:
 
-https://www.youtube.com/watch?v=S_f0_Zrh1Dc
+https://www.youtube.com/watch?v=hrjdB9EuElI
+
+[FarmTechVision Grupo 18 - YouTube]
+
+(https://youtu.be/hrjdB9EuElI)
 
             
 
@@ -74,8 +77,6 @@ O conjunto de dados foi organizado no Google Drive e contém:
 -  4 para teste
 
 -  Rotuladas com [Make Sense IA] (https://www.makesense.ai/) e salvas no formato YOLO.
-
-
 
 ## 🔗 Acesse o dataset completo no Google Drive:
 
