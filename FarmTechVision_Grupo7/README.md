@@ -1,13 +1,13 @@
 <style>
 </style>
 
-## Projeto FarmTech Solutions – Visão Computacional com YOLOv5, CNN do zero, Ir Além (Usando Transfer Learning e Fine Tuning)
+## Projeto FarmTech Solutions – Visão Computacional com YOLOv5, YOLOv5 adaptável, YOLOv5 tradicional, CNN do zero, Ir Além (Usando Transfer Learning e Fine Tuning)
 
 ## 
 
 # 📁 **Sobre o Projeto**
 
-## 📌 Projeto FarmTech Solutions – Visão Computacional com YOLOv5,  CNN do zero, Ir Além (Usando Transfer Learning e Fine Tuning)
+## 📌 Projeto FarmTech Solutions – Visão Computacional com YOLOv5, YOLOv5 adaptável, YOLOv5 tradicional, CNN do zero, Ir Além (Usando Transfer Learning e Fine Tuning)
 
 Este projeto demonstra as soluções desenvolvidas para as Entregas 1, 2 e Ir Além (Usando Transfer Learning e Fine Tuning) do projeto da disciplina PBL Fase 6 da FIAP, aplicando técnicas de Visão Computacional com YOLOv5, CNN do zero e Ir Além com foco em dois objetos distintos: **cat** e **bike**. O objetivo é treinar um modelo capaz de identificar esses objetos com alta acurácia, validando seu uso em cenários reais da FarmTech Solutions. 
 
@@ -29,8 +29,7 @@ aplicabilidade.
 
 Assista ao vídeo com a explicação e funcionamento do
 
-
-[FarmTechVision Grupo7 - YouTube]
+[FarmTechVision - YouTube]
 
 https://www.youtube.com/watch?v=S_f0_Zrh1Dc
 
@@ -142,7 +141,7 @@ https://colab.research.google.com/drive/13aGeT-bcPPcLcT97bx7PwZoolNfrSfIT
 
 ## 👥 **Autores**
 
-## Grupo 7 — FIAP
+## Grupo 18 — FIAP
 
 ### •       Fátima Vilela Candal
 
